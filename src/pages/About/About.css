@@ -1,0 +1,175 @@
+/* About Intro Section */
+.about-intro {
+    padding: 5rem 0;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .about-content h2 {
+    color: var(--primary-color);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-content h2:first-child {
+    margin-top: 0;
+  }
+  
+  .about-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+  }
+  
+  .about-image {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Values Section */
+  .values {
+    background-color: var(--light-background);
+    padding: 5rem 0;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .value-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .value-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  /* Team Section */
+  .team {
+    padding: 5rem 0;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3rem;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .member-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .member-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .team-member h3 {
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+  }
+  
+  .position {
+    font-style: italic;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+  }
+  
+  /* Why Us Section */
+  .why-us {
+    background-color: var(--light-background);
+    padding: 5rem 0;
+  }
+  
+  .why-us-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .why-us-content h2 {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+  }
+  
+  .benefits-list {
+    list-style: none;
+  }
+  
+  .benefits-list li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .benefits-list li svg {
+    color: var(--accent-color);
+    flex-shrink: 0;
+  }
+  
+  .why-us-image {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .why-us-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  @media (max-width: 992px) {
+    .about-grid,
+    .why-us-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .about-image,
+    .why-us-image {
+      margin-top: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .team-grid {
+      grid-template-columns: 1fr;
+      gap: 4rem;
+    }
+  }
