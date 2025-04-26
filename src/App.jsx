@@ -7,6 +7,7 @@ import Services from './pages/Services/Services'
 import Products from './pages/Products/Products'
 import ProductCategory from './pages/Products/ProductCategory'
 import Contact from './pages/Contact/Contact'
+import ThankYou from './pages/ThankYou/ThankYou'; 
 import './App.css'
 
 function App() {
