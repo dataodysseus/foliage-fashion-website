@@ -38,9 +38,11 @@ const Contact = () => {
           <form
             action="https://formsubmit.co/info@foliagefashion.com"
             method="POST"
-            className="contact-form"
+            className="space-y-4"
           >
             <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://foliagefashion.com/thank-you" />
+            <input type="text" name="_honey" style={{ display: 'none' }} />
             <div className="form-group">
               <input
                 type="text"
