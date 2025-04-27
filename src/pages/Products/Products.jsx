@@ -7,7 +7,7 @@ const Products = () => {
     {
       id: 'womens-tops',
       name: "Women's Tops",
-      image: "/images/products/categories/womens-tops.jpg",
+      image: "/images/products/categories/womens-tops.jpeg",
       description: "Stylish and comfortable tops for women in various designs and fabrics."
     },
     {
