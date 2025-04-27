@@ -7,61 +7,61 @@ const Products = () => {
     {
       id: 'womens-tops',
       name: "Women's Tops",
-      image: "/api/placeholder/400/300",
+      image: "/images/products/categories/womens-tops.jpg",
       description: "Stylish and comfortable tops for women in various designs and fabrics."
     },
     {
       id: 'womens-dresses',
       name: "Women's Dresses",
-      image: "/api/placeholder/400/300",
+      image: "/images/products/categories/womens-dresses.jpg",
       description: "Elegant dresses for every occasion, from casual to formal wear."
     },
     {
       id: 'tshirts',
       name: "T-shirts",
-      image: "/api/placeholder/400/300",
+      image: "/images/products/categories/tshirts.jpg",
       description: "Classic and graphic t-shirts for everyday comfort and style."
     },
     {
       id: 'polos',
       name: "Polos",
-      image: "/api/placeholder/400/300",
+      image: "/images/products/categories/polos.jpg",
       description: "Premium polo shirts for a smart casual look."
     },
     {
       id: 'sweatshirts',
       name: "Sweat Shirts",
-      image: "/api/placeholder/400/300",
+      image: "/images/products/categories/sweatshirts.jpg",
       description: "Cozy sweatshirts perfect for layering in cooler weather."
     },
     {
       id: 'sweaters',
       name: "Sweaters",
-      image: "/api/placeholder/400/300",
+      image: "/images/products/categories/sweaters.jpg",
       description: "Warm and stylish sweaters in various knits and patterns."
     },
     {
       id: 'hoodies',
       name: "Hoodies",
-      image: "/api/placeholder/400/300",
+      image: "/images/products/categories/hoodies.jpg",
       description: "Comfortable hoodies for active lifestyles and casual wear."
     },
     {
       id: 'jeans',
       name: "Jeans",
-      image: "/api/placeholder/400/300",
+      image: "/images/products/categories/jeans.jpg",
       description: "Quality denim jeans in various cuts, washes, and styles."
     },
     {
       id: 'jackets',
       name: "Jackets",
-      image: "/api/placeholder/400/300",
+      image: "/images/products/categories/jackets.jpg",
       description: "Trendy and functional jackets for all seasons."
     },
     {
       id: 'sportswear',
       name: "Sports Wear",
-      image: "/api/placeholder/400/300",
+      image: "/images/products/categories/sportswear.jpg",
       description: "Performance sportswear designed for comfort and functionality."
     }
   ];
@@ -71,7 +71,7 @@ const Products = () => {
       <Hero 
         title="Our Product Collections"
         subtitle="Explore our wide range of high-quality apparel products for every style and season"
-        backgroundImage="/api/placeholder/1200/400"
+        backgroundImage="/images/products/hero/collections-hero.jpg"
       />
 
       <section className="product-categories">
@@ -81,7 +81,14 @@ const Products = () => {
             {categories.map((category) => (
               <div className="category-card" key={category.id}>
                 <div className="category-image">
-                  <img src={category.image} alt={category.name} />
+                  <img 
+                    src={category.image} 
+                    alt={category.name}
+                    onError={(e) => {
+                      e.target.src = '/images/products/placeholder.jpg';
+                      e.target.alt = 'Placeholder image';
+                    }}
+                  />
                 </div>
                 <div className="category-info">
                   <h3>{category.name}</h3>
@@ -103,7 +110,14 @@ const Products = () => {
               <p>Our dedicated quality control team inspects each batch to ensure consistency and excellence across all our product lines.</p>
             </div>
             <div className="feature-image">
-              <img src="/api/placeholder/500/300" alt="Quality assurance process" />
+              <img 
+                src="/images/products/features/quality-assurance.jpg" 
+                alt="Quality assurance process"
+                onError={(e) => {
+                  e.target.src = '/images/products/placeholder.jpg';
+                  e.target.alt = 'Placeholder image';
+                }}
+              />
             </div>
           </div>
         </div>
@@ -113,7 +127,14 @@ const Products = () => {
         <div className="container">
           <div className="features-grid reverse">
             <div className="feature-image">
-              <img src="/api/placeholder/500/300" alt="Customization options" />
+              <img 
+                src="/images/products/features/customization.jpg" 
+                alt="Customization options"
+                onError={(e) => {
+                  e.target.src = '/images/products/placeholder.jpg';
+                  e.target.alt = 'Placeholder image';
+                }}
+              />
             </div>
             <div className="feature-content">
               <h2>Customization Options</h2>
