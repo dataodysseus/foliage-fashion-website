@@ -290,13 +290,16 @@ const ProductCategory = () => {
               <div className="products-grid">
                 {subcategory.products.map((product) => (
                   <div className="product-card" key={product.id}>
-                    <ImageContainer 
-                      src={product.image}
-                      alt={product.name}
-                      aspectRatio="3/4"
-                      maxHeight={250}
-                      className="product-image"
-                    />
+                    <div className="product-image">
+                      <img 
+                        src={product.image} 
+                        alt={product.name}
+                        onError={(e) => {
+                          e.target.src = '/images/products/placeholder.jpg';
+                          e.target.alt = 'Placeholder image';
+                        }}
+                      />
+                    </div>
                     <div className="product-info">
                       <h3>{product.name}</h3>
                       <div className="product-meta">
