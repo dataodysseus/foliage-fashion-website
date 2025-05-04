@@ -1,0 +1,110 @@
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+  
+  .services-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .services-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2d5540;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(to right, #3a5a40, #588157);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .services-subtitle {
+    font-size: 1.1rem;
+    color: #6b7280;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .service-card {
+    border-left: 4px solid;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon-container {
+    font-size: 2rem;
+    color: #2d5540;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .service-card:hover .service-icon-container {
+    transform: scale(1.2);
+  }
+  
+  .service-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+  }
+  
+  .service-description {
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .service-hover-content {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+  }
+  
+  .service-card:hover .service-hover-content {
+    bottom: 0;
+  }
+  
+  .service-button {
+    background: #3a5a40;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .service-button:hover {
+    background: #588157;
+    transform: translateX(5px);
+  }
+  
+  @media (max-width: 768px) {
+    .services-title {
+      font-size: 2rem;
+    }
+    
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  }

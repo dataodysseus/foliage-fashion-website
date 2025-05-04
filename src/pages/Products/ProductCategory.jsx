@@ -122,9 +122,9 @@ const productCategories = {
         name: "Quarter-Zip Sweatshirts",
         products: [
           { id: "SS-QZ-001", name: "Classic Quarter-Zip", image: "/images/products/sweatshirts/ss-qz-001.jpg" },
-          { id: "SS-QZ-002", name: "Fleece Quarter-Zip", image: "/images/products/sweatshirts/ss-qz-002" },
-          { id: "SS-QZ-003", name: "Performance Quarter-Zip", image: "/images/products/sweatshirts/ss-qz-003" },
-          { id: "SS-QZ-004", name: "Pullover Quarter-Zip", image: "/images/products/sweatshirts/ss-qz-004" }
+          { id: "SS-QZ-002", name: "Fleece Quarter-Zip", image: "/images/products/sweatshirts/ss-qz-002.jpg" },
+          { id: "SS-QZ-003", name: "Performance Quarter-Zip", image: "/images/products/sweatshirts/ss-qz-003.jpg" },
+          { id: "SS-QZ-004", name: "Pullover Quarter-Zip", image: "/images/products/sweatshirts/ss-qz-004.jpg" }
         ]
       }
     ]
@@ -163,9 +163,9 @@ const productCategories = {
         name: "Pullover Hoodies",
         products: [
           { id: "HD-PO-001", name: "Basic Pullover Hoodie", image: "/images/products/hoodies/hd-po-001.jpg" },
-          { id: "HD-PO-002", name: "Graphic Hoodie", image: "/images/products/hoodies/hd-po-002" },
-          { id: "HD-PO-003", name: "Fleece-Lined Hoodie", image: "/images/products/hoodies/hd-po-003" },
-          { id: "HD-PO-004", name: "Oversized Hoodie", image: "/images/products/hoodies/hd-po-004" }
+          { id: "HD-PO-002", name: "Graphic Hoodie", image: "/images/products/hoodies/hd-po-002.jpg" },
+          { id: "HD-PO-003", name: "Fleece-Lined Hoodie", image: "/images/products/hoodies/hd-po-003.jpg" },
+          { id: "HD-PO-004", name: "Oversized Hoodie", image: "/images/products/hoodies/hd-po-004.jpg" }
         ]
       },
       {

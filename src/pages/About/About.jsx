@@ -8,7 +8,7 @@ const About = () => {
       <Hero 
         title="About Foliage Fashion"
         subtitle="Learn about our journey, values, and commitment to quality apparel solutions"
-        backgroundImage="/api/placeholder/1200/600"
+        backgroundImage="/images/products/hero/about-hero.jpg"
       />
 
       <section className="about-intro">
@@ -16,13 +16,13 @@ const About = () => {
           <div className="about-grid">
             <div className="about-content">
               <h2>Our Story</h2>
-              <p>Founded in 2015, Foliage Fashion has grown from a small local enterprise to a respected name in the international apparel trade industry. What started as a passion for connecting quality manufacturers with discerning retailers has evolved into a comprehensive trade house operation serving clients across the United States.</p>
+              <p>Founded in 2024, Foliage Fashion has grown from a small local enterprise to a respected name in the international apparel trade industry. What started as a passion for connecting quality manufacturers with discerning retailers has evolved into a comprehensive trade house operation serving clients across the United States.</p>
               <p>Our journey has been shaped by a deep understanding of both manufacturing capabilities and retail requirements, allowing us to bridge the gap between producers and sellers effectively.</p>
               <h2>Our Mission</h2>
               <p>At Foliage Fashion, we strive to transform the global apparel supply chain by creating sustainable, transparent, and mutually beneficial relationships between manufacturers and retailers. We aim to be the most trusted partner for US retailers seeking quality apparel products at competitive prices.</p>
             </div>
             <div className="about-image">
-              <img src="/api/placeholder/500/600" alt="Foliage Fashion headquarters" />
+              <img src="/images/products/features/headquarters.jpg" alt="Foliage Fashion headquarters" />
             </div>
           </div>
         </div>
@@ -60,25 +60,25 @@ const About = () => {
               <div className="member-image">
                 <img src="/api/placeholder/300/300" alt="CEO" />
               </div>
-              <h3>Jane Doe</h3>
-              <p className="position">CEO & Founder</p>
-              <p>With over 20 years of experience in the apparel industry, Jane has established strong relationships with manufacturers worldwide.</p>
+              <h3>Salah Uddin</h3>
+              <p className="position">Co-Founder & CEO</p>
+              <p>Drawing on a decade of experience in supply chain, analytics, and consulting, Salah bridges U.S.-based buyers with Bangladesh’s top apparel manufacturers, combining data-driven insight with global perspective.</p>
             </div>
             <div className="team-member">
               <div className="member-image">
                 <img src="/api/placeholder/300/300" alt="COO" />
               </div>
-              <h3>John Smith</h3>
-              <p className="position">Chief Operations Officer</p>
-              <p>John oversees our logistics and ensures smooth operations from order placement to delivery.</p>
+              <h3>Tanvir Alam</h3>
+              <p className="position">Co-Founder & COO</p>
+              <p>A seasoned textile engineer with two decades of leadership in manufacturing and merchandising, our COO ensures every factory partnership meets the highest standards of quality, efficiency, and trust.</p>
             </div>
             <div className="team-member">
               <div className="member-image">
-                <img src="/api/placeholder/300/300" alt="Quality Director" />
+                <img src="/api/placeholder/300/300" alt="CFO" />
               </div>
-              <h3>Emily Chen</h3>
-              <p className="position">Quality Assurance Director</p>
-              <p>Emily leads our quality control team and implements rigorous standards for all products.</p>
+              <h3>Samiul Islam</h3>
+              <p className="position">Co-Founder & CFO</p>
+              <p>An accomplished finance professional, Samiul brings over 20 years of expertise in banking, trading, and foreign exchange to guide our global operations with strategic precision and fiscal discipline.</p>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ const About = () => {
               </ul>
             </div>
             <div className="why-us-image">
-              <img src="/api/placeholder/500/400" alt="Team working with manufacturers" />
+              <img src="/images/products/features/team.jpg" alt="Team working with manufacturers" />
             </div>
           </div>
         </div>

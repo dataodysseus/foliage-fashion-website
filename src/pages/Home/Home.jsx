@@ -1,9 +1,71 @@
 import { Link } from 'react-router-dom';
 import Hero from '../../components/Hero/Hero';
-import { FaTshirt, FaHandshake, FaShippingFast, FaSearchDollar, FaMedal } from 'react-icons/fa';
+import ImageContainer from '../../components/ImageContainer/ImageContainer';
+import { 
+  FaTshirt, 
+  FaHandshake, 
+  FaShippingFast, 
+  FaSearchDollar, 
+  FaMedal,
+  FaLeaf,
+  FaUserTie,
+  FaChartLine,
+  FaAward
+} from 'react-icons/fa';
 import './Home.css';
 
 const Home = () => {
+  const categories = [
+    {
+      id: 'mens-apparel',
+      name: "Men's Apparel",
+      image: "/images/products/categories/mens-apparel.jpg",
+      link: "/products"
+    },
+    {
+      id: 'womens-apparel',
+      name: "Women's Apparel",
+      image: "/images/products/categories/womens-apparel.jpg",
+      link: "/products"
+    },
+    {
+      id: 'activewear',
+      name: "Activewear",
+      image: "/images/products/categories/activewear.jpg",
+      link: "/products"
+    },
+    {
+      id: 'accessories',
+      name: "Accessories",
+      image: "/images/products/categories/accessories.jpg",
+      link: "/products"
+    }
+  ];
+
+  const businessHighlights = [
+    {
+      icon: <FaLeaf className="highlight-icon" />,
+      title: "Sustainable Sourcing",
+      description: "Ethically produced apparel using eco-friendly materials and processes",
+      stat: "100+",
+      statLabel: "Eco-Certified Products"
+    },
+    {
+      icon: <FaUserTie className="highlight-icon" />,
+      title: "Industry Experts",
+      description: "50+ years combined experience in fashion manufacturing",
+      stat: "500+",
+      statLabel: "Manufacturing Sources"
+    },
+    {
+      icon: <FaShippingFast className="highlight-icon" />,
+      title: "Reliable Logistics",
+      description: "On-time delivery with real-time tracking",
+      stat: "98%",
+      statLabel: "On-Time Rate"
+    },
+  ];
+
   return (
     <>
       <Hero 
@@ -11,52 +73,28 @@ const Home = () => {
         subtitle="Connecting quality manufacturers with retailers across the United States. From sourcing to delivery, we handle it all."
         buttonText="Explore Products"
         buttonLink="/products"
-        backgroundImage="/api/placeholder/1200/800"
+        backgroundImage="/images/products/hero/hero-banner.jpg"
       />
 
       <section className="features">
         <div className="container">
           <h2 className="section-title">Why Choose Foliage Fashion?</h2>
-          <div className="feature-grid">
-            <div className="feature-card">
-              <div className="feature-icon">
-                <FaTshirt />
+          <div className="highlight-grid">
+            {businessHighlights.map((highlight, index) => (
+              <div className="highlight-card" key={index}>
+                <div className="highlight-icon-container">
+                  {highlight.icon}
+                </div>
+                <div className="highlight-content">
+                  <h3>{highlight.title}</h3>
+                  <p>{highlight.description}</p>
+                  <div className="highlight-stats">
+                    <span className="stat-number">{highlight.stat}</span>
+                    <span className="stat-label">{highlight.statLabel}</span>
+                  </div>
+                </div>
               </div>
-              <h3>Quality Products</h3>
-              <p>We source only the finest materials and work with certified manufacturers to ensure premium quality.</p>
-            </div>
-
-            <div className="feature-card">
-              <div className="feature-icon">
-                <FaHandshake />
-              </div>
-              <h3>Reliable Partnerships</h3>
-              <p>Build long-term relationships with manufacturers who understand your specific requirements.</p>
-            </div>
-
-            <div className="feature-card">
-              <div className="feature-icon">
-                <FaSearchDollar />
-              </div>
-              <h3>Competitive Pricing</h3>
-              <p>Get the best value for your investment with our transparent and competitive pricing structure.</p>
-            </div>
-
-            <div className="feature-card">
-              <div className="feature-icon">
-                <FaShippingFast />
-              </div>
-              <h3>Efficient Logistics</h3>
-              <p>Our experienced team ensures timely delivery and hassle-free customs clearance process.</p>
-            </div>
-
-            <div className="feature-card">
-              <div className="feature-icon">
-                <FaMedal />
-              </div>
-              <h3>Industry Compliance</h3>
-              <p>All our partners adhere to international standards and ethical manufacturing practices.</p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -65,37 +103,19 @@ const Home = () => {
         <div className="container">
           <h2 className="section-title">Our Product Categories</h2>
           <div className="category-grid">
-            <div className="category-card">
-              <div className="category-image">
-                <img src="/api/placeholder/400/300" alt="Men's Apparel" />
+            {categories.map((category) => (
+              <div className="category-card" key={category.id}>
+                <ImageContainer 
+                  src={category.image}
+                  alt={category.name}
+                  aspectRatio="4/3"
+                  maxHeight={250}
+                  className="category-image"
+                />
+                <h3>{category.name}</h3>
+                <Link to={category.link} className="btn-outline">View Collection</Link>
               </div>
-              <h3>Men's Apparel</h3>
-              <Link to="/products" className="btn-outline">View Collection</Link>
-            </div>
-
-            <div className="category-card">
-              <div className="category-image">
-                <img src="/api/placeholder/400/300" alt="Women's Apparel" />
-              </div>
-              <h3>Women's Apparel</h3>
-              <Link to="/products" className="btn-outline">View Collection</Link>
-            </div>
-
-            <div className="category-card">
-              <div className="category-image">
-                <img src="/api/placeholder/400/300" alt="Activewear" />
-              </div>
-              <h3>Activewear</h3>
-              <Link to="/products" className="btn-outline">View Collection</Link>
-            </div>
-
-            <div className="category-card">
-              <div className="category-image">
-                <img src="/api/placeholder/400/300" alt="Accessories" />
-              </div>
-              <h3>Accessories</h3>
-              <Link to="/products" className="btn-outline">View Collection</Link>
-            </div>
+            ))}
           </div>
         </div>
       </section>
