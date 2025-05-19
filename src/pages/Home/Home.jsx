@@ -29,9 +29,15 @@ const Home = () => {
       link: "/products"
     },
     {
-      id: 'activewear',
-      name: "Activewear",
-      image: "/images/products/categories/activewear.jpg",
+      id: 'childrens-wear',
+      name: "Children's Wear",
+      image: "/images/products/categories/childrens-wear.jpg",
+      link: "/products"
+    },
+    {
+      id: 'home-textiles',
+      name: "Home Textiles",
+      image: "/images/products/categories/home-textiles.jpg",
       link: "/products"
     },
     {

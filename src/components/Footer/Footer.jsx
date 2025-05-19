@@ -51,11 +51,11 @@ const Footer = () => {
           <ul className="contact-info">
             <li>
               <FaMapMarkerAlt />
-              <span>123 Fashion Street, Textile City, Country</span>
+              <span> Yale Avenue, Hillside, USA</span>
             </li>
             <li>
               <FaPhone />
-              <span>+1 234 567 8901</span>
+              <span>+1 970 208 4674</span>
             </li>
             <li>
               <FaEnvelope />

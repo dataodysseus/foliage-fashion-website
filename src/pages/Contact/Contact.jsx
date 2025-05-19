@@ -13,10 +13,10 @@ const Contact = () => {
             <h2 className="contact-card-title">USA Office</h2>
             <div className="contact-info">
               <p>Foliage Fashion LLC</p>
-              <p>123 Greenway Blvd</p>
-              <p>Edison, NJ 08817</p>
-              <p><span className="contact-label">Email:</span> contact@foliagefashion.com</p>
-              <p><span className="contact-label">Phone:</span> +1 (908) 555-0199</p>
+              <p>Yale Avenue</p>
+              <p>Hillside, NJ 07205</p>
+              <p><span className="contact-label">Email:</span> info@foliagefashion.com</p>
+              <p><span className="contact-label">Phone:</span> +1 (970) 208-4674</p>
             </div>
           </div>
 
@@ -24,10 +24,10 @@ const Contact = () => {
             <h2 className="contact-card-title">Bangladesh Office</h2>
             <div className="contact-info">
               <p>Foliage Fashion Sourcing</p>
-              <p>56/A Dhanmondi Road 4</p>
-              <p>Dhaka 1209, Bangladesh</p>
-              <p><span className="contact-label">Email:</span> dhaka@foliagefashion.com</p>
-              <p><span className="contact-label">Phone:</span> +880 1999-123456</p>
+              <p>House 990 7th Sharani</p>
+              <p>Bashundhara (I-block) Dhaka 1229, Bangladesh</p>
+              <p><span className="contact-label">Email:</span> info@foliagefashion.com</p>
+              <p><span className="contact-label">Phone:</span> +880 1713-028105</p>
             </div>
           </div>
         </div>
