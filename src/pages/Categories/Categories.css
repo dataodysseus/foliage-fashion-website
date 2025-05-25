@@ -1,0 +1,190 @@
+/* Categories.css */
+
+.category-subcategories {
+  padding: 3rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: #2c3e50;
+}
+
+.subcategories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.subcategory-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background: white;
+}
+
+.subcategory-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.subcategory-image {
+  height: 350px; /* Increased height for bigger images */
+  overflow: hidden;
+  position: relative;
+}
+
+.subcategory-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.subcategory-card:hover .subcategory-image img {
+  transform: scale(1.1);
+}
+
+.subcategory-info {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.subcategory-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #2c3e50;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  border: 2px solid #2c3e50;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #2c3e50;
+}
+
+.breadcrumb {
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.breadcrumb a {
+  color: #2c3e50;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+  color: #e74c3c;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .subcategories-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  .subcategory-image {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subcategories-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-title {
+    font-size: 1.6rem;
+  }
+}
+
+/* Add to your existing CSS */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 2rem;
+}
+
+.product-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.product-image {
+  height: 350px;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.05);
+}
+
+.product-info {
+  padding: 1.5rem;
+}
+
+.product-info h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.product-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-id {
+  font-size: 0.85rem;
+  color: #666;
+}

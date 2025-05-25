@@ -20,31 +20,31 @@ const Home = () => {
       id: 'mens-apparel',
       name: "Men's Apparel",
       image: "/images/products/categories/mens-apparel.jpg",
-      link: "/products"
+      link: "/categories/mens-apparel" 
     },
     {
       id: 'womens-apparel',
       name: "Women's Apparel",
       image: "/images/products/categories/womens-apparel.jpg",
-      link: "/products"
+      link: "/categories/womens-apparel"
     },
     {
       id: 'childrens-wear',
       name: "Children's Wear",
       image: "/images/products/categories/childrens-wear.jpg",
-      link: "/products"
+      link: "/categories/childrens-wear"
     },
     {
       id: 'home-textiles',
       name: "Home Textiles",
       image: "/images/products/categories/home-textiles.jpg",
-      link: "/products"
+      link: "/categories/home-textiles"
     },
     {
       id: 'accessories',
       name: "Accessories",
       image: "/images/products/categories/accessories.jpg",
-      link: "/products"
+      link: "/categories/accessories"
     }
   ];
 

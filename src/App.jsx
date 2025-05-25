@@ -5,9 +5,10 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Services from './pages/Services/Services'
 import Products from './pages/Products/Products'
+import Categories from './pages/Categories/Categories'
 import ProductCategory from './pages/Products/ProductCategory'
 import Contact from './pages/Contact/Contact'
-import ThankYou from './pages/ThankYou/ThankYou'; 
+import ThankYou from './pages/ThankYou/ThankYou'
 import './App.css'
 
 function App() {
@@ -20,7 +21,12 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/products/:categoryId" element={<ProductCategory />} />
+          {/* Route for main categories - shows subcategories */}
+          <Route path="/categories/:categoryId" element={<Categories />} />
+          {/* New nested route for subcategories - shows actual products */}
+          <Route path="/categories/:categoryId/:subcategoryId" element={<ProductCategory />} />
+          {/* Keep the old route for backward compatibility if needed */}
+          <Route path="/products/:subcategoryId" element={<ProductCategory />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/thank-you" element={<ThankYou />} />
         </Routes>

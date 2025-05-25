@@ -58,7 +58,7 @@ const About = () => {
           <div className="team-grid">
             <div className="team-member">
               <div className="member-image">
-                <img src="/api/placeholder/300/300" alt="CEO" />
+                <img src="/images/team/ceo.jpg" alt="CEO" />
               </div>
               <h3>Salah Uddin</h3>
               <p className="position">Co-Founder & CEO</p>
@@ -66,7 +66,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-image">
-                <img src="/api/placeholder/300/300" alt="COO" />
+                <img src="/images/team/coo.jpg" alt="COO" />
               </div>
               <h3>Tanvir Alam</h3>
               <p className="position">Co-Founder & COO</p>
@@ -74,7 +74,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-image">
-                <img src="/api/placeholder/300/300" alt="CFO" />
+                <img src="/images/team/cfo.jpg" alt="CFO" />
               </div>
               <h3>Samiul Islam</h3>
               <p className="position">Co-Founder & CFO</p>
