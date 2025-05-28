@@ -129,7 +129,9 @@ const ProductCategory = () => {
                   />
                 </div>
                 <div className="product-info">
-                  <h3 className="product-name">{product.name}</h3>
+                  <div className="product-actions">
+                    <button className="btn btn-primary">{product.name}</button>
+                  </div>
                 </div>
               </div>
             ))}
