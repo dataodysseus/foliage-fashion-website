@@ -9,12 +9,13 @@ const Categories = () => {
       description: "High-quality men's clothing for all occasions",
       subcategories: [
         { id: 'mens-shirts', name: "Mens's Shirts"},
+        { id: 'mens-tshirts', name: "Mens's T-Shirts"},        
         { id: 'mens-polos', name: "Men's Polos"},
         { id: 'mens-sweatshirts', name: "Men's Sweatshirts"},
         { id: 'mens-sweaters', name: "Men's Sweaters"},
         { id: 'mens-hoodies', name: "Men's Hoodies"},
-        { id: 'mens-jeans', name: "Men's Jeans"},
-        { id: 'mens-jackets', name: "Men's Jackets"},
+        { id: 'mens-bottoms', name: "Men's Bottoms"},
+        { id: 'mens-outerwear', name: "Men's Outerwear"},
         { id: 'mens-sportswear', name: "Men's Sportswear"}        
       ]
     },
@@ -29,8 +30,8 @@ const Categories = () => {
         { id: 'womens-sweatshirts', name: "Women's Sweatshirts" },
         { id: 'womens-sweaters', name: "Women's Sweaters" },
         { id: 'womens-hoodies', name: "Women's Hoodies" },
-        { id: 'womens-jeans', name: "Women's Jeans" },         
-        { id: 'womens-jackets', name: "Women's Jackets" },
+        { id: 'womens-bottoms', name: "Women's Bottoms" },         
+        { id: 'womens-outerwear', name: "Women's Outerwear" },
         { id: 'womens-sportswear', name: "Women's Sportswear" }                              
       ]
     },

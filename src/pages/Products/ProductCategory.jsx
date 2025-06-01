@@ -12,13 +12,14 @@ const ProductCategory = () => {
     'mens-apparel': {
       title: "Men's Apparel",
       subcategories: {
-        'mens-shirts': { name: "Mens's Shirts", description: "Elegant shirts for every occasion" },
+        'mens-shirts': { name: "Mens's Dress Shirts", description: "Elegant shirts for every occasion" },
+        'mens-tshirts': { name: "Mens's T-Shirts", description: "Lightweight t-shirts for every occasion" },        
         'mens-polos': { name: "Men's Polos", description: "Classic polo shirts for men" },
         'mens-sweatshirts': { name: "Men's Sweatshirts", description: "Cozy sweatshirts for men" },
         'mens-sweaters': { name: "Men's Sweaters", description: "Warm sweaters for men" },
         'mens-hoodies': { name: "Men's Hoodies", description: "Comfortable hoodies for men" },
-        'mens-jeans': { name: "Men's Jeans", description: "Stylish jeans for men" },
-        'mens-jackets': { name: "Men's Jackets", description: "Fashionable jackets for men" },
+        'mens-bottoms': { name: "Men's Bottoms", description: "Stylish Bottoms for men" },
+        'mens-outerwear': { name: "Men's Outerwear", description: "Fashionable Outerwear for men" },
         'mens-sportswear': { name: "Men's Sportswear", description: "Active wear for men" }
       }
     },
@@ -32,8 +33,8 @@ const ProductCategory = () => {
         'womens-sweatshirts': { name: "Women's Sweatshirts", description: "Cozy sweatshirts for women" },
         'womens-sweaters': { name: "Women's Sweaters", description: "Warm sweaters for women" },
         'womens-hoodies': { name: "Women's Hoodies", description: "Comfortable hoodies for women" },
-        'womens-jeans': { name: "Women's Jeans", description: "Stylish jeans for women" },
-        'womens-jackets': { name: "Women's Jackets", description: "Fashionable jackets for women" },
+        'womens-bottoms': { name: "Women's Bottoms", description: "Stylish Bottoms for women" },
+        'womens-outerwear': { name: "Women's Outerwear", description: "Fashionable jackets for women" },
         'womens-sportswear': { name: "Women's Sportswear", description: "Active wear for women" }
       }
     },
@@ -130,7 +131,12 @@ const ProductCategory = () => {
                 </div>
                 <div className="product-info">
                   <div className="product-actions">
-                    <button className="btn btn-primary">{product.name}</button>
+                    <Link 
+                      to={`/categories/${categoryId}/${subcategoryId}/${product.id}`}
+                      className="btn btn-primary"
+                    >
+                      {product.name}
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -9,6 +9,7 @@ import Categories from './pages/Categories/Categories'
 import ProductCategory from './pages/Products/ProductCategory'
 import Contact from './pages/Contact/Contact'
 import ThankYou from './pages/ThankYou/ThankYou'
+import ProductDetail from './pages/Products/ProductDetail'
 import './App.css'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/categories/:categoryId/:subcategoryId" element={<ProductCategory />} />
           {/* Keep the old route for backward compatibility if needed */}
           <Route path="/products/:subcategoryId" element={<ProductCategory />} />
+          <Route path="/categories/:categoryId/:subcategoryId/:productId" element={<ProductDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
