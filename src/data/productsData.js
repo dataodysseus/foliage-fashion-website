@@ -5415,6 +5415,7 @@ export const productsData = {
       name: "Solid Sheets",
       image: "/images/products/bedding/bs-at-001.jpg",
       images: [
+        "/images/products/bedding/bs-at-001.jpg",
         "/images/products/bedding/bs-at-001-folded.jpg",
         "/images/products/bedding/bs-at-001-bed.jpg",
         "/images/products/bedding/bs-at-001-detail.jpg"
@@ -5469,6 +5470,7 @@ export const productsData = {
       name: "Printed Sheets",
       image: "/images/products/bedding/bs-at-002.jpg",
       images: [
+        "/images/products/bedding/bs-at-002.jpg",
         "/images/products/bedding/bs-at-002-bed.jpg",
         "/images/products/bedding/bs-at-002-detail.jpg",
         "/images/products/bedding/bs-at-002-pillow.jpg"
@@ -5525,6 +5527,7 @@ export const productsData = {
       name: "Flat Sheets",
       image: "/images/products/bedding/bs-at-003.jpg",
       images: [
+        "/images/products/bedding/bs-at-003.jpg",
         "/images/products/bedding/bs-at-003-folded.jpg",
         "/images/products/bedding/bs-at-003-bed.jpg",
         "/images/products/bedding/bs-at-003-detail.jpg"
@@ -5579,6 +5582,7 @@ export const productsData = {
       name: "Percale Sheets",
       image: "/images/products/bedding/bs-at-004.jpg",
       images: [
+        "/images/products/bedding/bs-at-004.jpg",
         "/images/products/bedding/bs-at-004-folded.jpg",
         "/images/products/bedding/bs-at-004-bed.jpg",
         "/images/products/bedding/bs-at-004-texture.jpg"
@@ -5744,12 +5748,12 @@ export const productsData = {
 
   'hats': [
     {
-      id: "TB-AT-001",
+      id: "CP-CS-001",
       name: "Custom Cap",
-      image: "/images/products/hats/tb-at-001.jpg",
+      image: "/images/products/hats/cp-cs-001.jpg",
       images: [
-        "/images/products/hats/tb-at-001.jpg",
-        "/images/products/hats/tb-at-001-back.jpg"
+        "/images/products/hats/cp-cs-001.jpg",
+        "/images/products/hats/cp-cs-001-back.jpg"
       ],
       description: "Premium 6-panel custom cap with adjustable strap and curved visor. Ideal for events, retail brands, or giveaways with embroidery or screen print options.",
       materials: [
@@ -5779,12 +5783,12 @@ export const productsData = {
       category: "hats"
     },
     {
-      id: "TB-AT-002",
+      id: "CP-BK-001",
       name: "Bucket Hat",
-      image: "/images/products/hats/tb-at-002.jpg",
+      image: "/images/products/hats/cp-bk-001.jpg",
       images: [
-        "/images/products/hats/tb-at-002.jpg",
-        "/images/products/hats/tb-at-002-side.jpg"
+        "/images/products/hats/cp-bk-001.jpg",
+        "/images/products/hats/cp-bk-001-side.jpg"
       ],
       description: "Classic bucket hat with breathable eyelets and soft brim. A trendy option for sunny days, festivals, beachwear, and streetwear collections.",
       materials: [
@@ -5813,12 +5817,12 @@ export const productsData = {
       category: "hats"
     },
     {
-      id: "TB-AT-003",
+      id: "CP-WB-001",
       name: "Winter Beanie",
-      image: "/images/products/hats/tb-at-003.jpg",
+      image: "/images/products/hats/cp-wb-001.jpg",
       images: [
-        "/images/products/hats/tb-at-003.jpg",
-        "/images/products/hats/tb-at-003-folded.jpg"
+        "/images/products/hats/cp-wb-001.jpg",
+        "/images/products/hats/cp-wb-001-folded.jpg"
       ],
       description: "Warm knit beanie made from soft acrylic or recycled yarn. Great for winter collections or branded merchandise during colder months.",
       materials: [
