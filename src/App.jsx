@@ -10,6 +10,7 @@ import ProductCategory from './pages/Products/ProductCategory'
 import Contact from './pages/Contact/Contact'
 import ThankYou from './pages/ThankYou/ThankYou'
 import ProductDetail from './pages/Products/ProductDetail'
+import RequestQuote from './pages/RequestQuote/RequestQuote'
 import './App.css'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/categories/:categoryId/:subcategoryId/:productId" element={<ProductDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/thank-you" element={<ThankYou />} />
+          <Route path="/request-quote" element={<RequestQuote />} />
         </Routes>
       </main>
       <Footer />

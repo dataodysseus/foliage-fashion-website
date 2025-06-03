@@ -70,6 +70,33 @@ const ProductDetail = () => {
   const currentLeadTime = getLeadTime();
   const totalPrice = (currentPrice * quantity).toFixed(2);
 
+  // Add this function before the return statement in your ProductDetail component
+
+  const handleRequestQuote = () => {
+    // Prepare quote data to pass to RequestQuote page
+    const quoteData = {
+      productId: product.id,
+      productName: product.name,
+      selectedColor: selectedColor,
+      selectedSize: selectedSize,
+      selectedMaterial: product.materials ? product.materials[selectedMaterial]?.name : null,
+      quantity: quantity,
+      unitPrice: product.materials && product.materials[selectedMaterial].price !== 0 
+        ? (currentPrice + product.materials[selectedMaterial].price).toFixed(2)
+        : currentPrice,
+      totalPrice: product.materials && product.materials[selectedMaterial].price !== 0
+        ? ((currentPrice + product.materials[selectedMaterial].price) * quantity).toFixed(2)
+        : totalPrice,
+      leadTime: currentLeadTime,
+      materialPrice: product.materials ? product.materials[selectedMaterial].price : 0
+    };
+
+    // Navigate to RequestQuote page with quote data
+    navigate('/request-quote', { 
+      state: { quoteData } 
+    });
+  };
+
   return (
     <>
       <Hero 
@@ -245,9 +272,12 @@ const ProductDetail = () => {
 
               {/* Action Buttons */}
               <div className="product-actions">
-                <Link to="/contact" className="btn btn-primary">
+                <button 
+                  className="btn btn-primary"
+                  onClick={handleRequestQuote}
+                >
                   Request Quote
-                </Link>
+                </button>
                 <button 
                   className="btn btn-outline"
                   onClick={() => navigate(-1)}
