@@ -91,75 +91,10 @@ const RequestQuote = () => {
     }));
   };
 
+  // SOLUTION 1: Remove the manual fetch and let FormSubmit handle everything
   const handleSubmit = (e) => {
-    e.preventDefault();
-    
-    // Create a FormData object to match FormSubmit requirements
-    const formDataToSubmit = new FormData();
-    
-    // Add FormSubmit configuration
-    formDataToSubmit.append('_captcha', 'false');
-    formDataToSubmit.append('_next', `${window.location.origin}/thank-you`);
-    
-    // Add form fields
-    formDataToSubmit.append('Form Type', 'Quote Request');
-    formDataToSubmit.append('Quote ID', `QT-${Date.now()}`);
-    formDataToSubmit.append('Submitted At', new Date().toLocaleString());
-    
-    // Product Information
-    formDataToSubmit.append('Product Name', product.name);
-    formDataToSubmit.append('Product ID', quoteData.productId);
-    formDataToSubmit.append('Selected Color', quoteData.selectedColor || 'Not specified');
-    formDataToSubmit.append('Selected Size', quoteData.selectedSize || 'Not specified');
-    formDataToSubmit.append('Selected Material', quoteData.selectedMaterial || 'Not specified');
-    formDataToSubmit.append('Quantity', `${quoteData.quantity} pieces`);
-    formDataToSubmit.append('Unit Price', `${quoteData.unitPrice}`);
-    formDataToSubmit.append('Total Price', `${quoteData.totalPrice}`);
-    formDataToSubmit.append('Lead Time', quoteData.leadTime);
-    
-    // Company Information
-    formDataToSubmit.append('Company Name', formData.companyName);
-    formDataToSubmit.append('Contact Person', formData.contactPerson);
-    formDataToSubmit.append('Email', formData.email);
-    formDataToSubmit.append('Phone', formData.phone);
-    formDataToSubmit.append('Country', formData.country);
-    formDataToSubmit.append('Address', formData.address || 'Not provided');
-    
-    // Order Details
-    formDataToSubmit.append('Customizations', formData.customizations || 'None');
-    formDataToSubmit.append('Packaging Requirements', formData.packagingRequirements || 'Standard');
-    formDataToSubmit.append('Labeling Requirements', formData.labeling || 'Standard');
-    formDataToSubmit.append('Shipping Method', formData.shippingMethod);
-    formDataToSubmit.append('Payment Terms', formData.paymentTerms);
-    formDataToSubmit.append('Advance Payment', formData.advancePayment);
-    formDataToSubmit.append('Required Delivery Date', formData.requiredDeliveryDate || 'Not specified');
-    formDataToSubmit.append('Urgent Order', formData.urgentOrder ? 'Yes' : 'No');
-    
-    // Quality Certificates
-    formDataToSubmit.append('Quality Certificates', formData.qualityCertificates.length > 0 ? formData.qualityCertificates.join(', ') : 'None requested');
-    
-    // Additional Information
-    formDataToSubmit.append('Special Instructions', formData.specialInstructions || 'None');
-    formDataToSubmit.append('Additional Comments', formData.additionalComments || 'None');
-    
-    // Submit to FormSubmit
-    fetch('https://formsubmit.co/info@foliagefashion.com', {
-      method: 'POST',
-      body: formDataToSubmit
-    }).then(response => {
-      if (response.ok) {
-        // FormSubmit will handle the redirect automatically
-        // But we can also navigate programmatically as a fallback
-        setTimeout(() => {
-          navigate('/thank-you');
-        }, 1000);
-      } else {
-        alert('There was an error submitting your quote request. Please try again.');
-      }
-    }).catch(error => {
-      console.error('Error:', error);
-      alert('There was an error submitting your quote request. Please try again.');
-    });
+    // Don't prevent default - let the form submit naturally
+    // FormSubmit will handle the redirect automatically
   };
 
   if (!quoteData || !product) {
@@ -271,6 +206,7 @@ const RequestQuote = () => {
                 <input type="hidden" name="Total Price" value={`${quoteData.totalPrice}`} />
                 <input type="hidden" name="Lead Time" value={quoteData.leadTime} />
                 <input type="hidden" name="Quality Certificates" value={formData.qualityCertificates.join(', ') || 'None requested'} />
+                
                 {/* Company Information */}
                 <div className="form-section">
                   <h3>Company Information</h3>
@@ -397,6 +333,8 @@ const RequestQuote = () => {
                       <label key={cert} className="checkbox-label">
                         <input
                           type="checkbox"
+                          name="Quality Certificates"
+                          value={cert}
                           checked={formData.qualityCertificates.includes(cert)}
                           onChange={() => handleCheckboxArrayChange(cert, 'qualityCertificates')}
                         />
