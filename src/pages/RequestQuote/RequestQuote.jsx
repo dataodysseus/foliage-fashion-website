@@ -41,6 +41,10 @@ const RequestQuote = () => {
     additionalComments: ''
   });
 
+  // Image upload state
+  const [uploadedImages, setUploadedImages] = useState([]);
+  const [imageError, setImageError] = useState('');
+
   // Get product details if quote data exists
   const product = quoteData ? getProductById(quoteData.productId) : null;
 
@@ -91,7 +95,59 @@ const RequestQuote = () => {
     }));
   };
 
-  // SOLUTION 1: Remove the manual fetch and let FormSubmit handle everything
+  // Handle image upload
+  const handleImageUpload = (e) => {
+    const files = Array.from(e.target.files);
+    setImageError('');
+    
+    // Validate files
+    const maxSize = 5 * 1024 * 1024; // 5MB per file
+    const allowedTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif'];
+    const maxFiles = 5;
+    
+    if (uploadedImages.length + files.length > maxFiles) {
+      setImageError(`Maximum ${maxFiles} images allowed`);
+      return;
+    }
+    
+    for (let file of files) {
+      if (!allowedTypes.includes(file.type)) {
+        setImageError('Only JPG, PNG, and GIF files are allowed');
+        return;
+      }
+      if (file.size > maxSize) {
+        setImageError('Each image must be less than 5MB');
+        return;
+      }
+    }
+    
+    // Create preview URLs and add to state
+    const newImages = files.map(file => ({
+      file,
+      preview: URL.createObjectURL(file),
+      name: file.name
+    }));
+    
+    setUploadedImages(prev => [...prev, ...newImages]);
+  };
+
+  // Remove image
+  const removeImage = (index) => {
+    setUploadedImages(prev => {
+      const newImages = [...prev];
+      URL.revokeObjectURL(newImages[index].preview); // Clean up memory
+      newImages.splice(index, 1);
+      return newImages;
+    });
+  };
+
+  // Clean up object URLs on unmount
+  useEffect(() => {
+    return () => {
+      uploadedImages.forEach(img => URL.revokeObjectURL(img.preview));
+    };
+  }, []);
+
   const handleSubmit = (e) => {
     // Don't prevent default - let the form submit naturally
     // FormSubmit will handle the redirect automatically
@@ -187,6 +243,7 @@ const RequestQuote = () => {
                 className="quote-form"
                 action="https://formsubmit.co/info@foliagefashion.com"
                 method="POST"
+                encType="multipart/form-data"
               >
                 {/* FormSubmit Configuration */}
                 <input type="hidden" name="_captcha" value="false" />
@@ -284,9 +341,9 @@ const RequestQuote = () => {
                   </div>
                 </div>
 
-                {/* Order Specifications */}
+                {/* Design Requirements with Image Upload */}
                 <div className="form-section">
-                  <h3>Order Specifications</h3>
+                  <h3>Design Requirements</h3>
                   
                   <div className="form-group">
                     <label htmlFor="customizations">Customizations Required</label>
@@ -299,6 +356,62 @@ const RequestQuote = () => {
                       rows="4"
                     />
                   </div>
+
+                  {/* Image Upload Section */}
+                  <div className="form-group">
+                    <label htmlFor="designImages">Upload Design References</label>
+                    <p className="upload-help">
+                      Upload image (JPG, PNG, GIF) to help us understand your design requirements. 
+                      Maximum 5MB.
+                    </p>
+                    
+                    <div className="image-upload-container">
+                      <input
+                        type="file"
+                        id="designImages"
+                        name="attachment"
+                        accept="image/*"
+                        multiple
+                        onChange={handleImageUpload}
+                        className="image-upload-input"
+                      />
+                      <label htmlFor="designImages" className="image-upload-label">
+                        <span className="upload-icon">📁</span>
+                        Choose Images
+                      </label>
+                    </div>
+
+                    {imageError && (
+                      <div className="error-message">{imageError}</div>
+                    )}
+
+                    {/* Image Previews */}
+                    {uploadedImages.length > 0 && (
+                      <div className="image-previews">
+                        {uploadedImages.map((image, index) => (
+                          <div key={index} className="image-preview">
+                            <img src={image.preview} alt={`Design reference ${index + 1}`} />
+                            <div className="image-info">
+                              <span className="image-name">{image.name}</span>
+                              <button
+                                type="button"
+                                onClick={() => removeImage(index)}
+                                className="remove-image"
+                                title="Remove image"
+                              >
+                                ×
+                              </button>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* Order Specifications */}
+                <div className="form-section">
+                  <h3>Order Specifications</h3>
                   
                   <div className="form-group">
                     <label htmlFor="packagingRequirements">Packaging Requirements</label>
