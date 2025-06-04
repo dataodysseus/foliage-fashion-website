@@ -2057,6 +2057,7 @@ export const productsData = {
       name: "Sundress",
       image: "/images/products/womens-dresses/wd-cd-002.jpg",
       images: [
+        "/images/products/womens-dresses/wd-cd-002.jpg",
         "/images/products/womens-dresses/wd-cd-002-front.jpg",
         "/images/products/womens-dresses/wd-cd-002-back.jpg",
         "/images/products/womens-dresses/wd-cd-002-detail.jpg",
@@ -2112,6 +2113,7 @@ export const productsData = {
       name: "Wrap Dress",
       image: "/images/products/womens-dresses/wd-cd-003.jpg",
       images: [
+        "/images/products/womens-dresses/wd-cd-003.jpg",
         "/images/products/womens-dresses/wd-cd-003-front.jpg",
         "/images/products/womens-dresses/wd-cd-003-wrap.jpg",
         "/images/products/womens-dresses/wd-cd-003-detail.jpg"
@@ -2163,6 +2165,7 @@ export const productsData = {
       name: "Shirt Dress",
       image: "/images/products/womens-dresses/wd-cd-004.jpg",
       images: [
+        "/images/products/womens-dresses/wd-cd-004.jpg",
         "/images/products/womens-dresses/wd-cd-004-front.jpg",
         "/images/products/womens-dresses/wd-cd-004-belted.jpg",
         "/images/products/womens-dresses/wd-cd-004-detail.jpg"
@@ -2214,6 +2217,7 @@ export const productsData = {
       name: "Cocktail Dress",
       image: "/images/products/womens-dresses/wd-fd-001.jpg",
       images: [
+        "/images/products/womens-dresses/wd-fd-001.jpg",
         "/images/products/womens-dresses/wd-fd-001-front.jpg",
         "/images/products/womens-dresses/wd-fd-001-back.jpg",
         "/images/products/womens-dresses/wd-fd-001-detail.jpg"
@@ -2265,6 +2269,7 @@ export const productsData = {
       name: "Evening Gown",
       image: "/images/products/womens-dresses/wd-fd-002.jpg",
       images: [
+        "/images/products/womens-dresses/wd-fd-002.jpg",
         "/images/products/womens-dresses/wd-fd-002-front.jpg",
         "/images/products/womens-dresses/wd-fd-002-back.jpg",
         "/images/products/womens-dresses/wd-fd-002-train.jpg"
@@ -2320,6 +2325,7 @@ export const productsData = {
       name: "A-Line Dress",
       image: "/images/products/womens-dresses/wd-fd-003.jpg",
       images: [
+        "/images/products/womens-dresses/wd-fd-003.jpg",
         "/images/products/womens-dresses/wd-fd-003-front.jpg",
         "/images/products/womens-dresses/wd-fd-003-twirl.jpg",
         "/images/products/womens-dresses/wd-fd-003-detail.jpg"
@@ -2371,6 +2377,7 @@ export const productsData = {
       name: "Sheath Dress",
       image: "/images/products/womens-dresses/wd-fd-004.jpg",
       images: [
+        "/images/products/womens-dresses/wd-fd-004.jpg",
         "/images/products/womens-dresses/wd-fd-004-front.jpg",
         "/images/products/womens-dresses/wd-fd-004-back.jpg",
         "/images/products/womens-dresses/wd-fd-004-detail.jpg"
@@ -2666,6 +2673,7 @@ export const productsData = {
       name: "Cotton Piqué Polo",
       image: "/images/products/womens-polos/po-cp-001.jpg",
       images: [
+        "/images/products/womens-polos/po-cp-001.jpg",
         "/images/products/womens-polos/po-cp-001-front.jpg",
         "/images/products/womens-polos/po-cp-001-back.jpg",
         "/images/products/womens-polos/po-cp-001-detail.jpg"
@@ -2721,6 +2729,7 @@ export const productsData = {
       name: "Slim Fit Polo",
       image: "/images/products/womens-polos/po-cp-002.jpg",
       images: [
+        "/images/products/womens-polos/po-cp-002.jpg",
         "/images/products/womens-polos/po-cp-002-front.jpg",
         "/images/products/womens-polos/po-cp-002-back.jpg",
         "/images/products/womens-polos/po-cp-002-detail.jpg"
@@ -2772,6 +2781,7 @@ export const productsData = {
       name: "Striped Polo",
       image: "/images/products/womens-polos/po-cp-003.jpg",
       images: [
+        "/images/products/womens-polos/po-cp-003.jpg",
         "/images/products/womens-polos/po-cp-003-front.jpg",
         "/images/products/womens-polos/po-cp-003-back.jpg",
         "/images/products/womens-polos/po-cp-003-detail.jpg"
@@ -2823,6 +2833,7 @@ export const productsData = {
       name: "Logo Polo",
       image: "/images/products/womens-polos/po-cp-004.jpg",
       images: [
+        "/images/products/womens-polos/po-cp-004.jpg",
         "/images/products/womens-polos/po-cp-004-front.jpg",
         "/images/products/womens-polos/po-cp-004-back.jpg",
         "/images/products/womens-polos/po-cp-004-detail.jpg"
@@ -2877,6 +2888,7 @@ export const productsData = {
       name: "Moisture-Wicking Polo",
       image: "/images/products/womens-polos/po-pp-001.jpg",
       images: [
+        "/images/products/womens-polos/po-pp-001.jpg",
         "/images/products/womens-polos/po-pp-001-front.jpg",
         "/images/products/womens-polos/po-pp-001-back.jpg",
         "/images/products/womens-polos/po-pp-001-sweat.jpg"
@@ -2928,6 +2940,7 @@ export const productsData = {
       name: "Golf Polo",
       image: "/images/products/womens-polos/po-pp-002.jpg",
       images: [
+        "/images/products/womens-polos/po-pp-002.jpg",
         "/images/products/womens-polos/po-pp-002-front.jpg",
         "/images/products/womens-polos/po-pp-002-back.jpg",
         "/images/products/womens-polos/po-pp-002-swing.jpg"
@@ -2979,6 +2992,7 @@ export const productsData = {
       name: "Stretch Fabric Polo",
       image: "/images/products/womens-polos/po-pp-003.jpg",
       images: [
+        "/images/products/womens-polos/po-pp-003.jpg",
         "/images/products/womens-polos/po-pp-003-front.jpg",
         "/images/products/womens-polos/po-pp-003-back.jpg",
         "/images/products/womens-polos/po-pp-003-detail.jpg"
@@ -3030,6 +3044,7 @@ export const productsData = {
       name: "Long Sleeve Polo",
       image: "/images/products/womens-polos/po-pp-004.jpg",
       images: [
+        "/images/products/womens-polos/po-pp-004.jpg",
         "/images/products/womens-polos/po-pp-004-front.jpg",
         "/images/products/womens-polos/po-pp-004-back.jpg",
         "/images/products/womens-polos/po-pp-004-detail.jpg"
@@ -3083,6 +3098,7 @@ export const productsData = {
       name: "Basic Crew Sweatshirt",
       image: "/images/products/womens-sweatshirts/ss-cn-001.jpg",
       images: [
+        "/images/products/womens-sweatshirts/ss-cn-001.jpg",
         "/images/products/womens-sweatshirts/ss-cn-001-front.jpg",
         "/images/products/womens-sweatshirts/ss-cn-001-back.jpg",
         "/images/products/womens-sweatshirts/ss-cn-001-detail.jpg"
@@ -3134,6 +3150,7 @@ export const productsData = {
       name: "Graphic Sweatshirt",
       image: "/images/products/womens-sweatshirts/ss-cn-002.jpg",
       images: [
+        "/images/products/womens-sweatshirts/ss-cn-002.jpg",
         "/images/products/womens-sweatshirts/ss-cn-002-front.jpg",
         "/images/products/womens-sweatshirts/ss-cn-002-back.jpg",
         "/images/products/womens-sweatshirts/ss-cn-002-detail.jpg"
@@ -3185,6 +3202,7 @@ export const productsData = {
       name: "Fleece Sweatshirt",
       image: "/images/products/womens-sweatshirts/ss-cn-003.jpg",
       images: [
+        "/images/products/womens-sweatshirts/ss-cn-003.jpg",
         "/images/products/womens-sweatshirts/ss-cn-003-front.jpg",
         "/images/products/womens-sweatshirts/ss-cn-003-back.jpg",
         "/images/products/womens-sweatshirts/ss-cn-003-lining.jpg"
@@ -3236,6 +3254,7 @@ export const productsData = {
       name: "Vintage Wash Sweatshirt",
       image: "/images/products/womens-sweatshirts/ss-cn-004.jpg",
       images: [
+        "/images/products/womens-sweatshirts/ss-cn-004.jpg",
         "/images/products/womens-sweatshirts/ss-cn-004-front.jpg",
         "/images/products/womens-sweatshirts/ss-cn-004-back.jpg",
         "/images/products/womens-sweatshirts/ss-cn-004-detail.jpg"
@@ -3290,6 +3309,7 @@ export const productsData = {
       name: "Classic Quarter-Zip",
       image: "/images/products/womens-sweatshirts/ss-qz-001.jpg",
       images: [
+        "/images/products/womens-sweatshirts/ss-qz-001.jpg",
         "/images/products/womens-sweatshirts/ss-qz-001-front.jpg",
         "/images/products/womens-sweatshirts/ss-qz-001-back.jpg",
         "/images/products/womens-sweatshirts/ss-qz-001-detail.jpg"
@@ -3341,6 +3361,7 @@ export const productsData = {
       name: "Fleece Quarter-Zip",
       image: "/images/products/womens-sweatshirts/ss-qz-002.jpg",
       images: [
+        "/images/products/womens-sweatshirts/ss-qz-002.jpg",
         "/images/products/womens-sweatshirts/ss-qz-002-front.jpg",
         "/images/products/womens-sweatshirts/ss-qz-002-back.jpg",
         "/images/products/womens-sweatshirts/ss-qz-002-lining.jpg"
@@ -3392,6 +3413,7 @@ export const productsData = {
       name: "Performance Quarter-Zip",
       image: "/images/products/womens-sweatshirts/ss-qz-003.jpg",
       images: [
+        "/images/products/womens-sweatshirts/ss-qz-003.jpg",
         "/images/products/womens-sweatshirts/ss-qz-003-front.jpg",
         "/images/products/womens-sweatshirts/ss-qz-003-back.jpg",
         "/images/products/womens-sweatshirts/ss-qz-003-detail.jpg"
@@ -3443,6 +3465,7 @@ export const productsData = {
       name: "Pullover Quarter-Zip",
       image: "/images/products/womens-sweatshirts/ss-qz-004.jpg",
       images: [
+        "/images/products/womens-sweatshirts/ss-qz-004.jpg",
         "/images/products/womens-sweatshirts/ss-qz-004-front.jpg",
         "/images/products/womens-sweatshirts/ss-qz-004-back.jpg",
         "/images/products/womens-sweatshirts/ss-qz-004-detail.jpg"
@@ -4795,6 +4818,7 @@ export const productsData = {
       name: "Performance Tee",
       image: "/images/products/womens-sportswear/sp-at-001.jpg",
       images: [
+        "/images/products/womens-sportswear/sp-at-001.jpg",
         "/images/products/womens-sportswear/sp-at-001-front.jpg",
         "/images/products/womens-sportswear/sp-at-001-back.jpg",
         "/images/products/womens-sportswear/sp-at-001-sweat.jpg"
@@ -4846,6 +4870,7 @@ export const productsData = {
       name: "Training Tank",
       image: "/images/products/womens-sportswear/sp-at-002.jpg",
       images: [
+        "/images/products/womens-sportswear/sp-at-002.jpg",
         "/images/products/womens-sportswear/sp-at-002-front.jpg",
         "/images/products/womens-sportswear/sp-at-002-back.jpg",
         "/images/products/womens-sportswear/sp-at-002-detail.jpg"
@@ -4897,6 +4922,7 @@ export const productsData = {
       name: "Long Sleeve Athletic Top",
       image: "/images/products/womens-sportswear/sp-at-003.jpg",
       images: [
+        "/images/products/womens-sportswear/sp-at-003.jpg",
         "/images/products/womens-sportswear/sp-at-003-front.jpg",
         "/images/products/womens-sportswear/sp-at-003-back.jpg",
         "/images/products/womens-sportswear/sp-at-003-detail.jpg"
@@ -4948,6 +4974,7 @@ export const productsData = {
       name: "Compression Shirt",
       image: "/images/products/womens-sportswear/sp-at-004.jpg",
       images: [
+        "/images/products/womens-sportswear/sp-at-004.jpg",
         "/images/products/womens-sportswear/sp-at-004-front.jpg",
         "/images/products/womens-sportswear/sp-at-004-back.jpg",
         "/images/products/womens-sportswear/sp-at-004-detail.jpg"
@@ -4999,6 +5026,7 @@ export const productsData = {
       name: "Training Shorts",
       image: "/images/products/womens-sportswear/sp-ab-001.jpg",
       images: [
+        "/images/products/womens-sportswear/sp-ab-001.jpg",
         "/images/products/womens-sportswear/sp-ab-001-front.jpg",
         "/images/products/womens-sportswear/sp-ab-001-back.jpg",
         "/images/products/womens-sportswear/sp-ab-001-movement.jpg"
@@ -5050,6 +5078,7 @@ export const productsData = {
       name: "Athletic Leggings",
       image: "/images/products/womens-sportswear/sp-ab-002.jpg",
       images: [
+        "/images/products/womens-sportswear/sp-ab-002.jpg",
         "/images/products/womens-sportswear/sp-ab-002-front.jpg",
         "/images/products/womens-sportswear/sp-ab-002-back.jpg",
         "/images/products/womens-sportswear/sp-ab-002-detail.jpg"
@@ -5100,6 +5129,7 @@ export const productsData = {
       name: "Joggers",
       image: "/images/products/womens-sportswear/sp-ab-003.jpg",
       images: [
+        "/images/products/womens-sportswear/sp-ab-003.jpg",
         "/images/products/womens-sportswear/sp-ab-003-front.jpg",
         "/images/products/womens-sportswear/sp-ab-003-back.jpg",
         "/images/products/womens-sportswear/sp-ab-003-detail.jpg"
@@ -5151,6 +5181,7 @@ export const productsData = {
       name: "Track Pants",
       image: "/images/products/womens-sportswear/sp-ab-004.jpg",
       images: [
+        "/images/products/womens-sportswear/sp-ab-004.jpg",
         "/images/products/womens-sportswear/sp-ab-004-front.jpg",
         "/images/products/womens-sportswear/sp-ab-004-back.jpg",
         "/images/products/womens-sportswear/sp-ab-004-stripes.jpg"
