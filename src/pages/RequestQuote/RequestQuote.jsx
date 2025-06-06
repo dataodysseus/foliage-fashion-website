@@ -362,7 +362,8 @@ const RequestQuote = () => {
                     <label htmlFor="designImages">Upload Design References</label>
                     <p className="upload-help">
                       Upload image (JPG, PNG, GIF) to help us understand your design requirements. 
-                      Maximum 5MB.
+                      Single image, Maximum 5MB. You can submit additional images after submitting the 
+                      quote request.
                     </p>
                     
                     <div className="image-upload-container">

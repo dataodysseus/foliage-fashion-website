@@ -1142,7 +1142,7 @@ export const productsData = {
           properties: ["GOTS certified", "Biodegradable"]
         }
       ],
-      sizes: ["S", "M", "L", "XL", "XXL", "3XL"],
+      sizes: ["S", "M", "L", "XL", "XXL", "XXXL"],
       colors: ["Onyx Black", "Heather Graphite", "Military Green", "Burnt Orange"],
       thermalProperties: {
         "Warmth Rating": "High (0°F to 50°F)",
@@ -2131,7 +2131,7 @@ export const productsData = {
           properties: ["Luxury handfeel", "Temperature-regulating"]
         }
       ],
-      sizes: ["XXS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"], 
       wrapSystem: {
         "Closure": "Inner tie + outer belt",
         "Adjustability": "Waist +/- 4 inches",
@@ -2343,7 +2343,7 @@ export const productsData = {
           properties: ["Crisp handfeel", "Slight rustle"]
         }
       ],
-      sizes: ["XXS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
       structure: {
         "Skirt Volume": "3-yard circumference",
         "Bodice": "Fully lined",
@@ -2691,7 +2691,7 @@ export const productsData = {
           properties: ["Extra-long staple", "Silk-like handfeel"]
         }
       ],
-      sizes: ["XXS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
       fit: {
         "Silhouette": "Semi-fitted",
         "Length": "24in back/22in front",
@@ -2851,7 +2851,7 @@ export const productsData = {
           properties: ["Structured drape", "Premium embroidery surface"]
         }
       ],
-      sizes: ["XS-2XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       branding: {
         "Embroidery Area": "3.5x3.5in max",
         "Thread Colors": "Pantone-matched",
@@ -2906,7 +2906,7 @@ export const productsData = {
           properties: ["Natural antimicrobial", "Softer handfeel"]
         }
       ],
-      sizes: ["XS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
       techSpecs: {
         "Breathability": "CFM 40+",
         "Dry Time": "<15min (AATCC 201)",
@@ -2958,7 +2958,7 @@ export const productsData = {
           properties: ["37% faster drying", "Made from recycled bottles"]
         }
       ],
-      sizes: ["XS-XXL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       golfFeatures: {
         "Sun Protection": "UPF 50+",
         "Swing Mobility": "Gusseted underarms",
@@ -3010,7 +3010,7 @@ export const productsData = {
           properties: ["Biodegradable", "Wrinkle-resistant"]
         }
       ],
-      sizes: ["XXS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
       stretchTech: {
         "Recovery": "95% after 50 washes",
         "Elongation": "30% tested (ASTM D2594)",
@@ -3062,7 +3062,7 @@ export const productsData = {
           properties: ["Luxury handfeel", "Temperature-regulating"]
         }
       ],
-      sizes: ["XS-XXL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       sleeveDetails: {
         "Cuff": "1x1 rib knit",
         "Length": "24in from shoulder",
@@ -3116,7 +3116,7 @@ export const productsData = {
           properties: ["GOTS Certified", "Softer handfeel", "Eco-friendly dyes"]
         }
       ],
-      sizes: ["XS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
       fit: {
         "Silhouette": "Regular fit",
         "Length": "24in back/22in front",
@@ -3168,7 +3168,7 @@ export const productsData = {
           properties: ["30% post-consumer waste", "Eco-conscious"]
         }
       ],
-      sizes: ["XS-XXL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       graphics: {
         "Print Method": "Water-based ink",
         "Placement": "Center chest (12x12in max)",
@@ -3220,7 +3220,7 @@ export const productsData = {
           properties: ["Ultra-plush interior", "Enhanced warmth"]
         }
       ],
-      sizes: ["XS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
       warmth: {
         "Rating": "0°C to 10°C comfort",
         "Technology": "Thermolite® insulation",
@@ -3272,7 +3272,7 @@ export const productsData = {
           properties: ["40% recycled content", "Lower environmental impact"]
         }
       ],
-      sizes: ["XS-XXL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       washEffects: [
         "Light stone wash",
         "Heavy distressing (+$4)",
@@ -3327,7 +3327,7 @@ export const productsData = {
           properties: ["Natural odor resistance", "Temperature regulating"]
         }
       ],
-      sizes: ["XS-XXL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       zipDetails: {
         "Type": "YKK Vislon zipper",
         "Cover": "Chin guard",
@@ -3379,7 +3379,7 @@ export const productsData = {
           properties: ["50% post-consumer materials", "Bluesign® approved"]
         }
       ],
-      sizes: ["XS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
       thermal: {
         "Warmth-to-Weight": "0.85 clo",
         "Moisture Wicking": "0.5L/hr",
@@ -3431,7 +3431,7 @@ export const productsData = {
           properties: ["37% faster drying", "Oeko-Tex certified"]
         }
       ],
-      sizes: ["XS-XXL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       performance: {
         "Breathability": "CFM 50+",
         "Moisture Wicking": "AATCC 195 compliant",
@@ -3483,7 +3483,7 @@ export const productsData = {
           properties: ["Biodegradable", "Silk-like handfeel"]
         }
       ],
-      sizes: ["XS-XXL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       design: {
         "Closure": "Magnetic snap placket",
         "Collar": "Stand-up/mock neck convertible",
@@ -4836,7 +4836,7 @@ export const productsData = {
           properties: ["Natural antimicrobial", "Softer handfeel", "Biodegradable"]
         }
       ],
-      sizes: ["XS-XXL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       techSpecs: {
         "Weight": "140GSM",
         "Breathability": "CFM 35",
@@ -4888,7 +4888,7 @@ export const productsData = {
           properties: ["Temperature-regulating", "3x faster drying"]
         }
       ],
-      sizes: ["XS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
       ventilation: {
         "Mesh Coverage": "30% surface area",
         "Panel Placement": "Underarm/back",
@@ -4940,7 +4940,7 @@ export const productsData = {
           properties: ["Natural temperature control", "Anti-microbial"]
         }
       ],
-      sizes: ["XS-XXL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       thermalTech: {
         "Heat Retention": "Traps 90% body heat",
         "Moisture Transfer": "0.8L/hr sweat evaporation",
@@ -4992,7 +4992,7 @@ export const productsData = {
           properties: ["Joint pain relief", "Enhanced recovery"]
         }
       ],
-      sizes: ["XS-XXL (sized by torso length)"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       compression: {
         "Level": "20-30mmHg (Class 1 Medical)",
         "Zones": "Targeted abdominal/back support",
@@ -5044,7 +5044,7 @@ export const productsData = {
           properties: ["Water-resistant", "30% recycled content"]
         }
       ],
-      sizes: ["XS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
       inseam: {
         "3-inch": "Competition fit",
         "5-inch": "Standard (+$0)",
@@ -5096,7 +5096,7 @@ export const productsData = {
           properties: ["Naked sensation", "Squat-proof"]
         }
       ],
-      sizes: ["XXS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
       waist: {
         "High-rise": "11-inch front/13-inch back",
         "Tummy Control": "Double-layer power mesh"
@@ -5147,7 +5147,7 @@ export const productsData = {
           properties: ["Wind-resistant", "Thermal insulation"]
         }
       ],
-      sizes: ["XS-XXL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       fit: {
         "Taper": "Slim through thigh",
         "Ankle": "Adjustable zipper (8-10in opening)",
@@ -5199,7 +5199,7 @@ export const productsData = {
           properties: ["Authentic 80s handfeel", "Pre-shrunk"]
         }
       ],
-      sizes: ["XS-3XL"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
       design: {
         "Stripes": "Contrast color options",
         "Side Slits": "Functional ventilation",
