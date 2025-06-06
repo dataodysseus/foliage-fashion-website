@@ -1272,6 +1272,7 @@ export const productsData = {
       name: "Relaxed Fit Jeans",
       image: "/images/products/mens-bottoms/mjn-mj-003.jpg",
       images: [
+        "/images/products/mens-bottoms/mjn-mj-003.jpg",
         "/images/products/mens-bottoms/mjn-mj-003-front.jpg",
         "/images/products/mens-bottoms/mjn-mj-003-back.jpg",
         "/images/products/mens-bottoms/mjn-mj-003-detail.jpg",
@@ -1334,6 +1335,7 @@ export const productsData = {
       name: "Distressed Jeans",
       image: "/images/products/mens-bottoms/mjn-mj-004.jpg",
       images: [
+        "/images/products/mens-bottoms/mjn-mj-004.jpg",
         "/images/products/mens-bottoms/mjn-mj-004-front.jpg",
         "/images/products/mens-bottoms/mjn-mj-004-back.jpg",
         "/images/products/mens-bottoms/mjn-mj-004-detail.jpg"
@@ -1392,6 +1394,7 @@ export const productsData = {
       name: "Skinny Jeans",
       image: "/images/products/mens-bottoms/mjn-wj-001.jpg",
       images: [
+        "/images/products/mens-bottoms/mjn-wj-001.jpg",
         "/images/products/mens-bottoms/mjn-wj-001-front.jpg",
         "/images/products/mens-bottoms/mjn-wj-001-back.jpg",
         "/images/products/mens-bottoms/mjn-wj-001-stretch.jpg"
@@ -1448,6 +1451,7 @@ export const productsData = {
       name: "Classic Chinos",
       image: "/images/products/mens-bottoms/mcp-cp-001.jpg",
       images: [
+        "/images/products/mens-bottoms/mcp-cp-001.jpg",
         "/images/products/mens-bottoms/mcp-cp-001-front.jpg",
         "/images/products/mens-bottoms/mcp-cp-001-back.jpg",
         "/images/products/mens-bottoms/mcp-cp-001-drape.jpg"
