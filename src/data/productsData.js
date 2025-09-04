@@ -15,7 +15,7 @@ export const productsData = {
       ],
       description: "Classic denim shirt perfect for casual wear. Made from premium cotton denim with excellent durability and comfort.",
       materials: [
-        { name: "100% Cotton Denim", price: 0 },
+        { name: "100% BCI Cotton Denim", price: 0 },
         { name: "Cotton-Poly Blend", price: -2 },
         { name: "Organic Cotton Denim", price: 5 }
       ],
