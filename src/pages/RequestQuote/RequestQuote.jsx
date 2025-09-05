@@ -502,6 +502,7 @@ const RequestQuote = () => {
                         value={formData.advancePayment}
                         onChange={handleInputChange}
                       >
+                        <option value="0%">0% Advance</option>
                         <option value="30%">30% Advance</option>
                         <option value="50%">50% Advance</option>
                         <option value="100%">100% Advance</option>

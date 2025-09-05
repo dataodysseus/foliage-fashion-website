@@ -29,10 +29,10 @@ export const productsData = {
         "1000+": "5-6 weeks"
       },
       pricing: {
-        "50-200": 24.50,
-        "201-500": 22.00,
-        "501-1000": 19.50,
-        "1000+": 17.00
+        "50-200": 0,
+        "201-500": 0,
+        "501-1000": 0,
+        "1000+": 0
       },
       features: ["Button-front closure", "Chest pockets", "Classic fit", "Pre-shrunk"],
       category: "mens-shirts"
@@ -62,10 +62,10 @@ export const productsData = {
         "500+": "5-6 weeks"
       },
       pricing: {
-        "25-100": 32.00,
-        "101-300": 28.50,
-        "301-500": 25.00,
-        "500+": 22.50
+        "25-100": 0,
+        "101-300": 0,
+        "301-500": 0,
+        "500+": 0
       },
       features: ["French seams", "Button-down collar", "Adjustable cuffs", "Wrinkle-resistant"],
       category: "mens-shirts"
@@ -92,9 +92,9 @@ export const productsData = {
         "400+": "4-5 weeks"
       },
       pricing: {
-        "36-150": 28.00,
-        "151-400": 25.50,
-        "400+": 23.00
+        "36-150": 0,
+        "151-400": 0,
+        "400+": 0
       },
       features: ["Button-front", "Chest pockets", "Brushed interior", "Regular fit"],
       category: "mens-shirts"
@@ -121,9 +121,9 @@ export const productsData = {
         "300+": "5-6 weeks"
       },
       pricing: {
-        "30-120": 35.00,
-        "121-300": 32.00,
-        "300+": 29.00
+        "30-120": 0,
+        "121-300": 0,
+        "300+": 0
       },
       features: ["Relaxed fit", "Breathable fabric", "Natural texture", "Easy care"],
       category: "mens-shirts"
@@ -155,10 +155,10 @@ export const productsData = {
         "500+": "4-5 weeks"
       },
       pricing: {
-        "12-50": 12.50,
-        "51-200": 10.00,
-        "201-500": 8.50,
-        "500+": 7.00
+        "12-50": 0,
+        "51-200": 0,
+        "201-500": 0,
+        "500+": 0
       },
       features: ["Crew neck", "Short sleeves", "Side seams", "Tear-away label"],
       category: "mens-tshirts"
@@ -188,10 +188,10 @@ export const productsData = {
         "500+": "4-5 weeks"
       },
       pricing: {
-        "12-50": 12.50,
-        "51-200": 10.00,
-        "201-500": 8.50,
-        "500+": 7.00
+        "12-50": 0,
+        "51-200": 0,
+        "201-500": 0,
+        "500+": 0
       },
       features: ["Crew neck", "Long sleeves", "Side seams", "Tear-away label"],
       category: "mens-tshirts"
@@ -220,9 +220,9 @@ export const productsData = {
         "250+": "5-6 weeks"
       },
       pricing: {
-        "24-100": 45.00,
-        "101-250": 42.00,
-        "250+": 38.50
+        "24-100": 0,
+        "101-250": 0,
+        "250+": 0
       },
       features: ["Button closure", "Chest pockets", "Classic fit", "Durable construction"],
       category: "mens-outerwear"
@@ -250,9 +250,9 @@ export const productsData = {
         "250+": "5-6 weeks"
       },
       pricing: {
-        "25-100": 55.00,
-        "101-250": 52.00,
-        "250+": 48.00
+        "25-100": 0,
+        "101-250": 0,
+        "250+": 0
       },
       features: ["Zipper closure", "Elastic waistband", "Multiple pockets", "Lightweight"],
       category: "mens-outerwear"
@@ -282,10 +282,10 @@ export const productsData = {
         "500+": "5-6 weeks"
       },
       pricing: {
-        "50-150": 38.00,
-        "151-300": 35.00,
-        "301-500": 32.00,
-        "500+": 29.00
+        "50-150": 0,
+        "151-300": 0,
+        "301-500": 0,
+        "500+": 0
       },
       features: ["Water-resistant", "Adjustable hood", "Zippered pockets", "Packable design"],
       category: "mens-jackets"
@@ -315,10 +315,10 @@ export const productsData = {
         "400+": "6-7 weeks"
       },
       pricing: {
-        "40-120": 32.00,
-        "121-250": 29.00,
-        "251-400": 26.00,
-        "400+": 23.00
+        "40-120": 0,
+        "121-250": 0,
+        "251-400": 0,
+        "400+": 0
       },
       features: ["Breathable fabric", "Contrast stripes", "Zip-front closure", "Ribbed cuffs and hem"],
       category: "mens-jackets"
@@ -348,10 +348,10 @@ export const productsData = {
         "250+": "7-8 weeks"
       },
       pricing: {
-        "25-75": 85.00,
-        "76-150": 79.00,
-        "151-250": 73.00,
-        "250+": 68.00
+        "25-75": 0,
+        "76-150": 0,
+        "151-250": 0,
+        "250+": 0
       },
       features: ["Insulated lining", "Fur-trimmed hood", "Storm flap", "Multiple pockets", "Adjustable waist"],
       category: "mens-jackets"
@@ -381,10 +381,10 @@ export const productsData = {
         "300+": "6-7 weeks"
       },
       pricing: {
-        "30-100": 65.00,
-        "101-200": 60.00,
-        "201-300": 55.00,
-        "300+": 50.00
+        "30-100": 0,
+        "101-200": 0,
+        "201-300": 0,
+        "300+": 0
       },
       features: ["Quilted design", "Stand-up collar", "Zippered pockets", "Lightweight warmth", "Packable"],
       category: "mens-jackets"
@@ -414,10 +414,10 @@ export const productsData = {
         "400+": "6-7 weeks"
       },
       pricing: {
-        "40-120": 55.00,
-        "121-250": 50.00,
-        "251-400": 46.00,
-        "400+": 42.00
+        "40-120": 0,
+        "121-250": 0,
+        "251-400": 0,
+        "400+": 0
       },
       features: ["Fully waterproof", "Sealed seams", "Adjustable hood", "Vented back panel", "Multiple pockets"],
       category: "mens-jackets"
@@ -447,10 +447,10 @@ export const productsData = {
         "200+": "8-9 weeks"
       },
       pricing: {
-        "20-50": 95.00,
-        "51-100": 88.00,
-        "101-200": 82.00,
-        "200+": 75.00
+        "20-50": 0,
+        "51-100": 0,
+        "101-200": 0,
+        "200+": 0
       },
       features: ["Double-breasted front", "Belted waist", "Storm flap", "Gun flap", "Deep pockets"],
       category: "mens-jackets"
@@ -480,9 +480,9 @@ export const productsData = {
         "300+": "4-5 weeks"
       },
       pricing: {
-        "24-100": 22.00,
-        "101-300": 19.50,
-        "300+": 17.00
+        "24-100": 0,
+        "101-300": 0,
+        "300+": 0
       },
       features: ["Three-button placket", "Rib-knit collar", "Side vents", "Tear-away label"],
       category: "mens-polos"
@@ -512,10 +512,10 @@ export const productsData = {
         "500+": "5-6 weeks"
       },
       pricing: {
-        "50-150": 28.00,
-        "151-300": 25.00,
-        "301-500": 22.00,
-        "500+": 19.00
+        "50-150": 0,
+        "151-300": 0,
+        "301-500": 0,
+        "500+": 0
       },
       features: ["3-button placket", "Contrast collar piping", "Side vents", "Reinforced collar"],
       category: "mens-polos"
@@ -545,10 +545,10 @@ export const productsData = {
         "400+": "6-7 weeks"
       },
       pricing: {
-        "40-120": 26.00,
-        "121-250": 23.00,
-        "251-400": 20.00,
-        "400+": 17.00
+        "40-120": 0,
+        "121-250": 0,
+        "251-400": 0,
+        "400+": 0
       },
       features: ["Signature stripe pattern", "Soft collar lining", "Taped neckline", "Double-stitched seams"],
       category: "mens-polos"
@@ -578,10 +578,10 @@ export const productsData = {
         "500+": "6-7 weeks"
       },
       pricing: {
-        "30-100": 32.00,
-        "101-250": 29.00,
-        "251-500": 26.00,
-        "500+": 23.00
+        "30-100": 0,
+        "101-250": 0,
+        "251-500": 0,
+        "500+": 0
       },
       features: ["Embroidery-ready chest panel", "No-roll collar", "Tagless neck label", "Wrinkle-resistant"],
       category: "mens-polos",
@@ -616,10 +616,10 @@ export const productsData = {
         "600+": "5-6 weeks"
       },
       pricing: {
-        "60-150": 34.00,
-        "151-300": 31.00,
-        "301-600": 28.00,
-        "600+": 25.00
+        "60-150": 0,
+        "151-300": 0,
+        "301-600": 0,
+        "600+": 0
       },
       features: ["UPF 30+ protection", "4-way stretch", "Laser-cut ventilation zones", "Anti-odor treatment"],
       category: "mens-polos"
@@ -649,10 +649,10 @@ export const productsData = {
         "500+": "6-7 weeks"
       },
       pricing: {
-        "50-125": 38.00,
-        "126-250": 35.00,
-        "251-500": 32.00,
-        "500+": 29.00
+        "50-125": 0,
+        "126-250": 0,
+        "251-500": 0,
+        "500+": 0
       },
       features: ["UV protection (UPF 50+)", "Stretch shoulder panels", "Drop tail hem", "Ball marker holder"],
       category: "mens-polos"
@@ -682,10 +682,10 @@ export const productsData = {
         "540+": "6-7 weeks"
       },
       pricing: {
-        "45-135": 36.00,
-        "136-270": 33.00,
-        "271-540": 30.00,
-        "540+": 27.00
+        "45-135": 0,
+        "136-270": 0,
+        "271-540": 0,
+        "540+": 0
       },
       features: ["360° stretch technology", "Wrinkle-free", "Breathable mesh back panel", "No-slip collar stays"],
       category: "mens-polos"
@@ -715,10 +715,10 @@ export const productsData = {
         "420+": "7-8 weeks"
       },
       pricing: {
-        "35-105": 42.00,
-        "106-210": 39.00,
-        "211-420": 36.00,
-        "420+": 33.00
+        "35-105": 0,
+        "106-210": 0,
+        "211-420": 0,
+        "420+": 0
       },
       features: ["Button cuff sleeves", "Extended collar stand", "Subtle side vents", "Structured shoulders"],
       category: "mens-polos",
@@ -749,9 +749,9 @@ export const productsData = {
         "400+": "4-5 weeks"
       },
       pricing: {
-        "36-150": 28.00,
-        "151-400": 25.00,
-        "400+": 22.00
+        "36-150": 0,
+        "151-400": 0,
+        "400+": 0
       },
       features: ["Ribbed crewneck", "Kangaroo pocket", "Double-needle stitching", "Pre-shrunk"],
       category: "mens-sweatshirts"
@@ -787,10 +787,10 @@ export const productsData = {
         "480+": "6-7 weeks"
       },
       pricing: {
-        "40-120": 35.00,
-        "121-240": 32.00,
-        "241-480": 29.00,
-        "480+": 26.00
+        "40-120": 0,
+        "121-240": 0,
+        "241-480": 0,
+        "480+": 0
       },
       features: [
         "Screen-printed graphics",
@@ -830,10 +830,10 @@ export const productsData = {
         "420+": "7-8 weeks"
       },
       pricing: {
-        "35-105": 42.00,
-        "106-210": 38.00,
-        "211-420": 35.00,
-        "420+": 32.00
+        "35-105": 0,
+        "106-210": 0,
+        "211-420": 0,
+        "420+": 0
       },
       features: [
         "Double-needle stitching",
@@ -884,10 +884,10 @@ export const productsData = {
         "300+": "8-9 weeks"
       },
       pricing: {
-        "25-75": 48.00,
-        "76-150": 44.00,
-        "151-300": 40.00,
-        "300+": 36.00
+        "25-75": 0,
+        "76-150": 0,
+        "151-300": 0,
+        "300+": 0
       },
       features: [
         "Garment-dyed finish",
@@ -927,9 +927,9 @@ export const productsData = {
         "200+": "6-7 weeks"
       },
       pricing: {
-        "20-75": 65.00,
-        "76-200": 60.00,
-        "200+": 55.00
+        "20-75": 0,
+        "76-200": 0,
+        "200+": 0
       },
       features: ["Full button front", "Ribbed trim", "Patch pockets", "Machine washable"],
       category: "mens-sweaters"
@@ -964,10 +964,10 @@ export const productsData = {
         "200+": "12-14 weeks"
       },
       pricing: {
-        "20-50": 89.00,
-        "51-100": 82.00,
-        "101-200": 76.00,
-        "200+": 70.00
+        "20-50": 0,
+        "51-100": 0,
+        "101-200": 0,
+        "200+": 0
       },
       features: [
         "Set-in sleeves",
@@ -1013,10 +1013,10 @@ export const productsData = {
         "180+": "14-16 weeks"
       },
       pricing: {
-        "15-45": 115.00,
-        "46-90": 105.00,
-        "91-180": 95.00,
-        "180+": 85.00
+        "15-45": 0,
+        "46-90": 0,
+        "91-180": 0,
+        "180+": 0
       },
       features: [
         "Double-layered collar",
@@ -1063,10 +1063,10 @@ export const productsData = {
         "120+": "16-18 weeks"
       },
       pricing: {
-        "10-30": 145.00,
-        "31-60": 135.00,
-        "61-120": 125.00,
-        "120+": 115.00
+        "10-30": 0,
+        "31-60": 0,
+        "61-120": 0,
+        "120+": 0
       },
       features: [
         "Hand-linked seams",
@@ -1107,9 +1107,9 @@ export const productsData = {
         "300+": "4-5 weeks"
       },
       pricing: {
-        "24-100": 32.00,
-        "101-300": 29.00,
-        "300+": 26.00
+        "24-100": 0,
+        "101-300": 0,
+        "300+": 0
       },
       features: ["Adjustable drawstring hood", "Kangaroo pocket", "Double-needle stitching", "Pre-shrunk"],
       category: "mens-hoodies"
@@ -1157,10 +1157,10 @@ export const productsData = {
         "600+": "7-8 weeks"
       },
       pricing: {
-        "50-150": 48.00,
-        "151-300": 44.00,
-        "301-600": 40.00,
-        "600+": 36.00
+        "50-150": 0,
+        "151-300": 0,
+        "301-600": 0,
+        "600+": 0
       },
       features: [
         "YKK® anti-snag zipper",
@@ -1215,10 +1215,10 @@ export const productsData = {
         "900+": "6-7 weeks"
       },
       pricing: {
-        "75-225": 39.00,
-        "226-450": 35.00,
-        "451-900": 32.00,
-        "900+": 29.00
+        "75-225": 0,
+        "226-450": 0,
+        "451-900": 0,
+        "900+": 0
       },
       features: [
         "Laser-cut ventilation zones",
@@ -1260,9 +1260,9 @@ export const productsData = {
         "500+": "5-6 weeks"
       },
       pricing: {
-        "50-200": 42.00,
-        "201-500": 39.00,
-        "500+": 36.00
+        "50-200": 0,
+        "201-500": 0,
+        "500+": 0
       },
       features: ["Zip fly with button closure", "Five-pocket styling", "Bar-tacked stress points", "Pre-washed"],
       category: "mens-bottoms"
@@ -1311,10 +1311,10 @@ export const productsData = {
         "600+": "8-9 weeks"
       },
       pricing: {
-        "50-150": 58.00,
-        "151-300": 54.00,
-        "301-600": 50.00,
-        "600+": 46.00
+        "50-150": 0,
+        "151-300": 0,
+        "301-600": 0,
+        "600+": 0
       },
       features: [
         "Double-needle felled seams",
@@ -1375,10 +1375,10 @@ export const productsData = {
         "480+": "9-10 weeks"
       },
       pricing: {
-        "40-120": 65.00,
-        "121-240": 60.00,
-        "241-480": 55.00,
-        "480+": 50.00
+        "40-120": 0,
+        "121-240": 0,
+        "241-480": 0,
+        "480+": 0
       },
       features: [
         "Reinforced hole edges",
@@ -1427,10 +1427,10 @@ export const productsData = {
         "720+": "7-8 weeks"
       },
       pricing: {
-        "60-180": 62.00,
-        "181-360": 58.00,
-        "361-720": 54.00,
-        "720+": 50.00
+        "60-180": 0,
+        "181-360": 0,
+        "361-720": 0,
+        "720+": 0
       },
       features: [
         "Gusseted crotch",
@@ -1489,10 +1489,10 @@ export const productsData = {
         "540+": "7-8 weeks"
       },
       pricing: {
-        "45-135": 52.00,
-        "136-270": 48.00,
-        "271-540": 44.00,
-        "540+": 40.00
+        "45-135": 0,
+        "136-270": 0,
+        "271-540": 0,
+        "540+": 0
       },
       features: [
         "Military belt loops",
@@ -1533,9 +1533,9 @@ export const productsData = {
         "300+": "4-5 weeks"
       },
       pricing: {
-        "24-100": 18.00,
-        "101-300": 16.00,
-        "300+": 14.00
+        "24-100": 0,
+        "101-300": 0,
+        "300+": 0
       },
       features: ["Moisture-wicking", "Ventilated mesh panels", "Tagless label", "Flatlock seams"],
       category: "mens-sportswear"
@@ -1563,9 +1563,9 @@ export const productsData = {
         "300+": "4-5 weeks"
       },
       "pricing": {
-        "24-100": 15.00,
-        "101-300": 13.50,
-        "300+": 12.00
+        "24-100": 0,
+        "101-300": 0,
+        "300+": 0
       },
       "features": ["Quick-dry fabric", "Mesh ventilation", "Racerback design", "Anti-odor treatment"],
       "category": "mens-sportswear"
@@ -1593,9 +1593,9 @@ export const productsData = {
         "250+": "4-5 weeks"
       },
       "pricing": {
-        "20-100": 22.00,
-        "101-250": 20.00,
-        "250+": 18.00
+        "20-100": 0,
+        "101-250": 0,
+        "250+": 0
       },
       "features": ["Thumbhole cuffs", "Moisture-wicking", "4-way stretch", "Reflective details"],
       "category": "mens-sportswear"
@@ -1623,9 +1623,9 @@ export const productsData = {
         "400+": "5-6 weeks"
       },
       "pricing": {
-        "36-150": 25.00,
-        "151-400": 22.50,
-        "400+": 20.00
+        "36-150": 0,
+        "151-400": 0,
+        "400+": 0
       },
       "features": ["Graduated compression", "Seamless construction", "UV protection", "Antibacterial treatment"],
       "category": "mens-sportswear"
@@ -1653,9 +1653,9 @@ export const productsData = {
         "300+": "4-5 weeks"
       },
       "pricing": {
-        "24-100": 20.00,
-        "101-300": 18.00,
-        "300+": 16.00
+        "24-100": 0,
+        "101-300": 0,
+        "300+": 0
       },
       "features": ["Zippered pockets", "Mesh liner", "Drawstring waist", "Reflective trim"],
       "category": "mens-sportswear"
@@ -1683,9 +1683,9 @@ export const productsData = {
         "400+": "4-5 weeks"
       },
       "pricing": {
-        "36-150": 12.00,
-        "151-400": 10.50,
-        "400+": 9.00
+        "36-150": 0,
+        "151-400": 0,
+        "400+": 0
       },
       "features": ["Elastic waistband", "Button fly", "Side pockets", "Preshrunk fabric"],
       "category": "mens-sportswear"
@@ -1713,9 +1713,9 @@ export const productsData = {
         "250+": "4-5 weeks"
       },
       "pricing": {
-        "20-100": 28.00,
-        "101-250": 25.00,
-        "250+": 22.00
+        "20-100": 0,
+        "101-250": 0,
+        "250+": 0
       },
       "features": ["Drawstring waist", "Side pockets", "Ribbed cuffs", "Tapered fit"],
       "category": "mens-sportswear"
@@ -1743,9 +1743,9 @@ export const productsData = {
         "300+": "5-6 weeks"
       },
       "pricing": {
-        "24-100": 32.00,
-        "101-300": 28.50,
-        "300+": 25.00
+        "24-100": 0,
+        "101-300": 0,
+        "300+": 0
       },
       "features": ["Side stripe design", "Zip pockets", "Elastic waistband", "Mesh lining"],
       "category": "mens-sportswear"
@@ -1773,9 +1773,9 @@ export const productsData = {
         "500+": "4-5 weeks"
       },
       "pricing": {
-        "48-200": 8.00,
-        "201-500": 7.00,
-        "500+": 6.00
+        "48-200": 0,
+        "201-500": 0,
+        "500+": 0
       },
       "features": ["Comfort waistband", "Tagless design", "Reinforced seams", "Preshrunk cotton"],
       "category": "mens-sportswear"
@@ -1807,9 +1807,9 @@ export const productsData = {
         "300+": "4-5 weeks"
       },
       pricing: {
-        "24-100": 14.00,
-        "101-300": 12.00,
-        "300+": 10.00
+        "24-100": 0,
+        "101-300": 0,
+        "300+": 0
       },
       features: ["Slightly tapered fit", "Double-needle stitching", "Tear-away label", "Pre-shrunk"],
       category: "womens-tops"
@@ -1837,9 +1837,9 @@ export const productsData = {
         "300+": "4-5 weeks"
       },
       "pricing": {
-        "24-100": 22.00,
-        "101-300": 19.50,
-        "300+": 17.00
+        "24-100": 0,
+        "101-300": 0,
+        "300+": 0
       },
       "features": ["V-neckline", "3/4 sleeves", "Relaxed fit", "Machine washable"],
       "category": "womens-tops"
@@ -1867,9 +1867,9 @@ export const productsData = {
         "250+": "4-5 weeks"
       },
       "pricing": {
-        "20-100": 26.00,
-        "101-250": 23.00,
-        "250+": 20.00
+        "20-100": 0,
+        "101-250": 0,
+        "250+": 0
       },
       "features": ["Classic collar", "Button front", "Chest pocket", "Tailored fit"],
       "category": "womens-tops"
@@ -1897,9 +1897,9 @@ export const productsData = {
         "350+": "4-5 weeks"
       },
       "pricing": {
-        "30-120": 16.00,
-        "121-350": 14.00,
-        "350+": 12.00
+        "30-120": 0,
+        "121-350": 0,
+        "350+": 0
       },
       "features": ["Sleeveless design", "Scoop neckline", "Curved hem", "Breathable fabric"],
       "category": "womens-tops"
@@ -1927,9 +1927,9 @@ export const productsData = {
         "150+": "5-6 weeks"
       },
       "pricing": {
-        "12-50": 65.00,
-        "51-150": 58.00,
-        "150+": 52.00
+        "12-50": 0,
+        "51-150": 0,
+        "150+": 0
       },
       "features": ["100% silk construction", "French seams", "Mother-of-pearl buttons", "Dry clean only"],
       "category": "womens-tops"
@@ -1957,9 +1957,9 @@ export const productsData = {
         "200+": "5-6 weeks"
       },
       "pricing": {
-        "18-80": 42.00,
-        "81-200": 38.00,
-        "200+": 34.00
+        "18-80": 0,
+        "81-200": 0,
+        "200+": 0
       },
       "features": ["Spread collar", "French cuffs", "Darts for fit", "Wrinkle-resistant"],
       "category": "womens-tops"
@@ -1987,9 +1987,9 @@ export const productsData = {
         "250+": "5-6 weeks"
       },
       "pricing": {
-        "20-100": 38.00,
-        "101-250": 34.00,
-        "250+": 30.00
+        "20-100": 0,
+        "101-250": 0,
+        "250+": 0
       },
       "features": ["Peplum waist", "Princess seams", "Back zip closure", "Lined bodice"],
       "category": "womens-tops"
@@ -2017,9 +2017,9 @@ export const productsData = {
         "200+": "5-6 weeks"
       },
       "pricing": {
-        "16-75": 45.00,
-        "76-200": 40.00,
-        "200+": 36.00
+        "16-75": 0,
+        "76-200": 0,
+        "200+": 0
       },
       "features": ["Cascading ruffles", "Keyhole back", "3/4 sleeves", "Lined construction"],
       "category": "womens-tops"
@@ -2049,9 +2049,9 @@ export const productsData = {
         "300+": "5-6 weeks"
       },
       pricing: {
-        "30-120": 32.00,
-        "121-300": 29.00,
-        "300+": 26.00
+        "30-120": 0,
+        "121-300": 0,
+        "300+": 0
       },
       features: ["Round neckline", "Short sleeves", "Side slits", "Machine washable"],
       category: "womens-dresses"
@@ -2095,10 +2095,10 @@ export const productsData = {
         "720+": "6-7 weeks"
       },
       pricing: {
-        "60-180": 45.00,
-        "181-360": 42.00,
-        "361-720": 39.00,
-        "720+": 36.00
+        "60-180": 0,
+        "181-360": 0,
+        "361-720": 0,
+        "720+": 0
       },
       features: [
         "Adjustable tie straps",
@@ -2150,10 +2150,10 @@ export const productsData = {
         "600+": "7-8 weeks"
       },
       pricing: {
-        "50-150": 65.00,
-        "151-300": 60.00,
-        "301-600": 55.00,
-        "600+": 50.00
+        "50-150": 0,
+        "151-300": 0,
+        "301-600": 0,
+        "600+": 0
       },
       features: [
         "Convertible sleeves (roll-up tabs)",
@@ -2202,10 +2202,10 @@ export const productsData = {
         "480+": "8-9 weeks"
       },
       pricing: {
-        "40-120": 58.00,
-        "121-240": 54.00,
-        "241-480": 50.00,
-        "480+": 46.00
+        "40-120": 0,
+        "121-240": 0,
+        "241-480": 0,
+        "480+": 0
       },
       features: [
         "Contrast inner facing",
@@ -2254,10 +2254,10 @@ export const productsData = {
         "360+": "9-10 weeks"
       },
       pricing: {
-        "30-90": 125.00,
-        "91-180": 115.00,
-        "181-360": 105.00,
-        "360+": 95.00
+        "30-90": 0,
+        "91-180": 0,
+        "181-360": 0,
+        "360+": 0
       },
       features: [
         "Built-in shapewear layer",
@@ -2306,10 +2306,10 @@ export const productsData = {
         "80+": "16-18 weeks"
       },
       pricing: {
-        "10-20": 395.00,
-        "21-40": 375.00,
-        "41-80": 355.00,
-        "80+": 335.00
+        "10-20": 0,
+        "21-40": 0,
+        "41-80": 0,
+        "80+": 0
       },
       features: [
         "Internal corset with 12 bones",
@@ -2362,10 +2362,10 @@ export const productsData = {
         "420+": "8-9 weeks"
       },
       pricing: {
-        "35-105": 88.00,
-        "106-210": 82.00,
-        "211-420": 76.00,
-        "420+": 70.00
+        "35-105": 0,
+        "106-210": 0,
+        "211-420": 0,
+        "420+": 0
       },
       features: [
         "Concealed side zipper",
@@ -2414,10 +2414,10 @@ export const productsData = {
         "300+": "9-10 weeks"
       },
       pricing: {
-        "25-75": 95.00,
-        "76-150": 88.00,
-        "151-300": 82.00,
-        "300+": 75.00
+        "25-75": 0,
+        "76-150": 0,
+        "151-300": 0,
+        "300+": 0
       },
       features: [
         "Back vent for mobility",
@@ -2453,9 +2453,9 @@ export const productsData = {
         "500+": "3-4 weeks"
       },
       "pricing": {
-        "50-200": 8.50,
-        "201-500": 7.25,
-        "500+": 6.00
+        "50-200": 0,
+        "201-500": 0,
+        "500+": 0
       },
       "features": ["Crew neckline", "Short sleeves", "Relaxed fit", "Double-stitched hems"],
       "category": "womens-tshirts"
@@ -2483,9 +2483,9 @@ export const productsData = {
         "400+": "4-5 weeks"
       },
       "pricing": {
-        "36-150": 12.00,
-        "151-400": 10.50,
-        "400+": 9.00
+        "36-150": 0,
+        "151-400": 0,
+        "400+": 0
       },
       "features": ["Custom print ready", "Screen print compatible", "Tear-away label", "Reinforced seams"],
       "category": "womens-tshirts"
@@ -2513,9 +2513,9 @@ export const productsData = {
         "300+": "4-5 weeks"
       },
       "pricing": {
-        "30-120": 11.00,
-        "121-300": 9.50,
-        "300+": 8.50
+        "30-120": 0,
+        "121-300": 0,
+        "300+": 0
       },
       "features": ["Horizontal stripes", "Crew neck", "Fitted silhouette", "Pattern matching at seams"],
       "category": "womens-tshirts"
@@ -2543,9 +2543,9 @@ export const productsData = {
         "250+": "4-5 weeks"
       },
       "pricing": {
-        "24-100": 14.00,
-        "101-250": 12.50,
-        "250+": 11.00
+        "24-100": 0,
+        "101-250": 0,
+        "250+": 0
       },
       "features": ["Long sleeves", "Crew neckline", "Slightly fitted", "Ribbed cuffs"],
       "category": "womens-tshirts"
@@ -2573,9 +2573,9 @@ export const productsData = {
         "500+": "3-4 weeks"
       },
       "pricing": {
-        "48-200": 9.00,
-        "201-500": 7.75,
-        "500+": 6.50
+        "48-200": 0,
+        "201-500": 0,
+        "500+": 0
       },
       "features": ["V-neckline", "Short sleeves", "Feminine fit", "Side seams"],
       "category": "womens-tshirts"
@@ -2603,9 +2603,9 @@ export const productsData = {
         "350+": "4-5 weeks"
       },
       "pricing": {
-        "36-150": 11.50,
-        "151-350": 10.00,
-        "350+": 8.75
+        "36-150": 0,
+        "151-350": 0,
+        "350+": 0
       },
       "features": ["V-neckline", "Chest pocket", "Relaxed fit", "Curved hem"],
       "category": "womens-tshirts"
@@ -2633,9 +2633,9 @@ export const productsData = {
         "250+": "4-5 weeks"
       },
       "pricing": {
-        "24-100": 15.50,
-        "101-250": 13.75,
-        "250+": 12.00
+        "24-100": 0,
+        "101-250": 0,
+        "250+": 0
       },
       "features": ["Distressed edges", "Raw hem", "V-neckline", "Vintage wash"],
       "category": "womens-tshirts"
@@ -2663,9 +2663,9 @@ export const productsData = {
         "200+": "4-5 weeks"
       },
       "pricing": {
-        "18-75": 28.00,
-        "76-200": 25.00,
-        "200+": 22.00
+        "18-75": 0,
+        "76-200": 0,
+        "200+": 0
       },
       "features": ["Premium fabric", "Tailored fit", "Reinforced seams", "Luxury feel"],
       "category": "womens-tshirts"
@@ -2710,10 +2710,10 @@ export const productsData = {
         "600+": "7-8 weeks"
       },
       pricing: {
-        "50-150": 42.00,
-        "151-300": 38.00,
-        "301-600": 35.00,
-        "600+": 32.00
+        "50-150": 0,
+        "151-300": 0,
+        "301-600": 0,
+        "600+": 0
       },
       features: [
         "Mother-of-pearl buttons",
@@ -2766,10 +2766,10 @@ export const productsData = {
         "480+": "8-9 weeks"
       },
       pricing: {
-        "40-120": 48.00,
-        "121-240": 44.00,
-        "241-480": 40.00,
-        "480+": 36.00
+        "40-120": 0,
+        "121-240": 0,
+        "241-480": 0,
+        "480+": 0
       },
       features: [
         "Hidden button placket",
@@ -2818,10 +2818,10 @@ export const productsData = {
         "720+": "7-8 weeks"
       },
       pricing: {
-        "60-180": 45.00,
-        "181-360": 42.00,
-        "361-720": 39.00,
-        "720+": 36.00
+        "60-180": 0,
+        "181-360": 0,
+        "361-720": 0,
+        "720+": 0
       },
       features: [
         "3-button placket",
@@ -2870,10 +2870,10 @@ export const productsData = {
         "420+": "8-9 weeks"
       },
       pricing: {
-        "35-105": 52.00,
-        "106-210": 48.00,
-        "211-420": 44.00,
-        "420+": 40.00
+        "35-105": 0,
+        "106-210": 0,
+        "211-420": 0,
+        "420+": 0
       },
       features: [
         "No-roll collar",
@@ -2925,10 +2925,10 @@ export const productsData = {
         "660+": "7-8 weeks"
       },
       pricing: {
-        "55-165": 58.00,
-        "166-330": 54.00,
-        "331-660": 50.00,
-        "660+": 46.00
+        "55-165": 0,
+        "166-330": 0,
+        "331-660": 0,
+        "660+": 0
       },
       features: [
         "Raglan sleeves",
@@ -2977,10 +2977,10 @@ export const productsData = {
         "540+": "8-9 weeks"
       },
       pricing: {
-        "45-135": 65.00,
-        "136-270": 60.00,
-        "271-540": 55.00,
-        "540+": 50.00
+        "45-135": 0,
+        "136-270": 0,
+        "271-540": 0,
+        "540+": 0
       },
       features: [
         "Vented back yoke",
@@ -3029,10 +3029,10 @@ export const productsData = {
         "780+": "7-8 weeks"
       },
       pricing: {
-        "65-195": 55.00,
-        "196-390": 51.00,
-        "391-780": 47.00,
-        "780+": 43.00
+        "65-195": 0,
+        "196-390": 0,
+        "391-780": 0,
+        "780+": 0
       },
       features: [
         "Seamless shoulder construction",
@@ -3081,10 +3081,10 @@ export const productsData = {
         "480+": "9-10 weeks"
       },
       pricing: {
-        "40-120": 68.00,
-        "121-240": 63.00,
-        "241-480": 58.00,
-        "480+": 54.00
+        "40-120": 0,
+        "121-240": 0,
+        "241-480": 0,
+        "480+": 0
       },
       features: [
         "Extended collar stand",
@@ -3135,10 +3135,10 @@ export const productsData = {
         "720+": "7-8 weeks"
       },
       pricing: {
-        "60-180": 38.00,
-        "181-360": 35.00,
-        "361-720": 32.00,
-        "720+": 29.00
+        "60-180": 0,
+        "181-360": 0,
+        "361-720": 0,
+        "720+": 0
       },
       features: [
         "Double-needle stitching",
@@ -3187,10 +3187,10 @@ export const productsData = {
         "600+": "8-9 weeks"
       },
       pricing: {
-        "50-150": 45.00,
-        "151-300": 42.00,
-        "301-600": 39.00,
-        "600+": 36.00
+        "50-150": 0,
+        "151-300": 0,
+        "301-600": 0,
+        "600+": 0
       },
       features: [
         "Distressed print effect",
@@ -3239,10 +3239,10 @@ export const productsData = {
         "480+": "9-10 weeks"
       },
       pricing: {
-        "40-120": 58.00,
-        "121-240": 54.00,
-        "241-480": 50.00,
-        "480+": 46.00
+        "40-120": 0,
+        "121-240": 0,
+        "241-480": 0,
+        "480+": 0
       },
       features: [
         "Raglan sleeves",
@@ -3292,10 +3292,10 @@ export const productsData = {
         "420+": "10-11 weeks"
       },
       pricing: {
-        "35-105": 52.00,
-        "106-210": 48.00,
-        "211-420": 44.00,
-        "420+": 40.00
+        "35-105": 0,
+        "106-210": 0,
+        "211-420": 0,
+        "420+": 0
       },
       features: [
         "Reinforced elbow patches",
@@ -3346,10 +3346,10 @@ export const productsData = {
         "540+": "8-9 weeks"
       },
       pricing: {
-        "45-135": 55.00,
-        "136-270": 51.00,
-        "271-540": 47.00,
-        "540+": 43.00
+        "45-135": 0,
+        "136-270": 0,
+        "271-540": 0.00,
+        "540+": 0.00
       },
       features: [
         "Stand-up collar",
@@ -3398,10 +3398,10 @@ export const productsData = {
         "480+": "9-10 weeks"
       },
       pricing: {
-        "40-120": 68.00,
-        "121-240": 63.00,
-        "241-480": 58.00,
-        "480+": 54.00
+        "40-120": 0.00,
+        "121-240": 0.00,
+        "241-480": 0.00,
+        "480+": 0.00
       },
       features: [
         "Zippered chest pocket",
@@ -3450,10 +3450,10 @@ export const productsData = {
         "660+": "7-8 weeks"
       },
       pricing: {
-        "55-165": 65.00,
-        "166-330": 60.00,
-        "331-660": 55.00,
-        "660+": 50.00
+        "55-165": 0.00,
+        "166-330": 0.00,
+        "331-660": 0.00,
+        "660+": 0.00
       },
       features: [
         "Perforated back panel",
@@ -3502,10 +3502,10 @@ export const productsData = {
         "600+": "8-9 weeks"
       },
       pricing: {
-        "50-150": 58.00,
-        "151-300": 54.00,
-        "301-600": 50.00,
-        "600+": 46.00
+        "50-150": 0.00,
+        "151-300": 0.00,
+        "301-600": 0.00,
+        "600+": 0.00
       },
       features: [
         "Hidden inner pocket",
@@ -3542,9 +3542,9 @@ export const productsData = {
         "360+": "6-7 weeks"
       },
       pricing: {
-        "36-144": 32.00,
-        "145-360": 29.50,
-        "360+": 26.50
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Button-front closure", "Ribbed cuffs and hem", "Two front pockets", "Classic fit", "V-neckline"],
       category: "womens-sweaters"
@@ -3573,9 +3573,9 @@ export const productsData = {
         "360+": "5-6 weeks"
       },
       pricing: {
-        "36-144": 28.00,
-        "145-360": 25.50,
-        "360+": 23.00
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Open front design", "Relaxed fit", "Flowing drape", "Long sleeves", "Hip length"],
       category: "womens-sweaters"
@@ -3604,9 +3604,9 @@ export const productsData = {
         "240+": "7-8 weeks"
       },
       pricing: {
-        "24-96": 45.00,
-        "97-240": 42.00,
-        "240+": 38.50
+        "24-96": 0.00,
+        "97-240": 0.00,
+        "240+": 0.00
       },
       features: ["Chunky knit texture", "Oversized fit", "Button closure", "Cozy warmth", "Statement piece"],
       category: "womens-sweaters"
@@ -3635,9 +3635,9 @@ export const productsData = {
         "240+": "6-7 weeks"
       },
       pricing: {
-        "24-96": 38.00,
-        "97-240": 35.50,
-        "240+": 32.00
+        "24-96": 0.00,
+        "97-240": 0.00,
+        "240+": 0.00
       },
       features: ["Longline silhouette", "Open front", "Side slits", "Elegant drape", "Versatile layering"],
       category: "womens-sweaters"
@@ -3666,9 +3666,9 @@ export const productsData = {
         "480+": "5-6 weeks"
       },
       pricing: {
-        "48-192": 24.00,
-        "193-480": 22.00,
-        "480+": 19.50
+        "48-192": 0.00,
+        "193-480": 0.00,
+        "480+": 0.00
       },
       features: ["Classic crew neckline", "Regular fit", "Ribbed trim", "Easy care", "Wardrobe essential"],
       category: "womens-sweaters"
@@ -3697,9 +3697,9 @@ export const productsData = {
         "360+": "5-6 weeks"
       },
       pricing: {
-        "36-144": 26.00,
-        "145-360": 24.00,
-        "360+": 21.50
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Flattering V-neckline", "Feminine fit", "Lightweight knit", "Layering friendly", "Versatile styling"],
       category: "womens-sweaters"
@@ -3728,9 +3728,9 @@ export const productsData = {
         "360+": "6-7 weeks"
       },
       pricing: {
-        "36-144": 30.00,
-        "145-360": 27.50,
-        "360+": 25.00
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["High turtleneck collar", "Slim fit", "Sophisticated style", "Warm coverage", "Professional look"],
       category: "womens-sweaters"
@@ -3759,9 +3759,9 @@ export const productsData = {
         "240+": "7-8 weeks"
       },
       pricing: {
-        "24-96": 42.00,
-        "97-240": 39.00,
-        "240+": 35.50
+        "24-96": 0.00,
+        "97-240": 0.00,
+        "240+": 0.00
       },
       features: ["Cable knit pattern", "Traditional styling", "Crew neckline", "Cozy warmth", "Textured design"],
       category: "womens-sweaters"
@@ -3790,9 +3790,9 @@ export const productsData = {
         "360+": "5-6 weeks"
       },
       pricing: {
-        "36-144": 22.00,
-        "145-360": 20.00,
-        "360+": 18.00
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Cropped length", "Modern silhouette", "Crew neckline", "Trendy styling", "High-waist friendly"],
       category: "womens-sweaters"
@@ -3821,9 +3821,9 @@ export const productsData = {
         "240+": "6-7 weeks"
       },
       pricing: {
-        "24-96": 35.00,
-        "97-240": 32.50,
-        "240+": 29.00
+        "24-96": 0.00,
+        "97-240": 0.00,
+        "240+": 0.00
       },
       features: ["Oversized fit", "Dropped shoulders", "Relaxed styling", "Cozy comfort", "Casual aesthetic"],
       category: "womens-sweaters"
@@ -3852,9 +3852,9 @@ export const productsData = {
         "360+": "5-6 weeks"
       },
       pricing: {
-        "36-144": 28.00,
-        "145-360": 25.50,
-        "360+": 23.00
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Mock neckline", "Slim fit", "Modern styling", "Versatile wear", "Minimalist design"],
       category: "womens-sweaters"
@@ -3883,9 +3883,9 @@ export const productsData = {
         "240+": "6-7 weeks"
       },
       pricing: {
-        "24-96": 34.00,
-        "97-240": 31.50,
-        "240+": 28.50
+        "24-96": 0.00,
+        "97-240": 0.00,
+        "240+": 0.00
       },
       features: ["Wrap front design", "Tie waist closure", "Flattering silhouette", "V-neckline", "Feminine styling"],
       category: "womens-sweaters"
@@ -3915,9 +3915,9 @@ export const productsData = {
         "300+": "4-5 weeks"
       },
       "pricing": {
-        "24-100": 28.00,
-        "101-300": 25.00,
-        "300+": 22.00
+        "24-100": 0.00,
+        "101-300": 0.00,
+        "300+": 0.00
       },
       "features": ["Kangaroo pocket", "Drawstring hood", "Ribbed cuffs", "Preshrunk fabric"],
       "category": "womens-hoodies"
@@ -3945,9 +3945,9 @@ export const productsData = {
         "200+": "4-5 weeks"
       },
       "pricing": {
-        "18-75": 32.00,
-        "76-200": 28.50,
-        "200+": 25.00
+        "18-75": 0.00,
+        "76-200": 0.00,
+        "200+": 0.00
       },
       "features": ["Print-ready surface", "Double-lined hood", "Pouch pocket", "Tear-away label"],
       "category": "womens-hoodies"
@@ -3975,9 +3975,9 @@ export const productsData = {
         "200+": "5-6 weeks"
       },
       "pricing": {
-        "20-80": 38.00,
-        "81-200": 34.00,
-        "200+": 30.00
+        "20-80": 0.00,
+        "81-200": 0.00,
+        "200+": 0.00
       },
       "features": ["Fleece-lined interior", "Thermal insulation", "Adjustable hood", "Thumb holes"],
       "category": "womens-hoodies"
@@ -4005,9 +4005,9 @@ export const productsData = {
         "150+": "4-5 weeks"
       },
       "pricing": {
-        "16-60": 35.00,
-        "61-150": 31.50,
-        "150+": 28.00
+        "16-60": 0.00,
+        "61-150": 0.00,
+        "150+": 0.00
       },
       "features": ["Oversized fit", "Drop shoulders", "Extended length", "Vintage styling"],
       "category": "womens-hoodies"
@@ -4035,9 +4035,9 @@ export const productsData = {
         "250+": "4-5 weeks"
       },
       "pricing": {
-        "20-100": 32.00,
-        "101-250": 28.50,
-        "250+": 25.50
+        "20-100": 0.00,
+        "101-250": 0.00,
+        "250+": 0.00
       },
       "features": ["Full-length zipper", "Front pockets", "Ribbed hem", "YKK zipper"],
       "category": "womens-hoodies"
@@ -4065,9 +4065,9 @@ export const productsData = {
         "300+": "4-5 weeks"
       },
       "pricing": {
-        "24-120": 26.00,
-        "121-300": 23.00,
-        "300+": 20.50
+        "24-120": 0.00,
+        "121-300": 0.00,
+        "300+": 0.00
       },
       "features": ["Lightweight fabric", "Breathable construction", "Slim fit", "Moisture-wicking"],
       "category": "womens-hoodies"
@@ -4095,9 +4095,9 @@ export const productsData = {
         "200+": "5-6 weeks"
       },
       "pricing": {
-        "18-75": 45.00,
-        "76-200": 40.00,
-        "200+": 36.00
+        "18-75": 0.00,
+        "76-200": 0.00,
+        "200+": 0.00
       },
       "features": ["Moisture-wicking", "Quick-dry fabric", "Athletic fit", "Reflective details"],
       "category": "womens-hoodies"
@@ -4125,9 +4125,9 @@ export const productsData = {
         "120+": "5-6 weeks"
       },
       "pricing": {
-        "12-50": 52.00,
-        "51-120": 46.00,
-        "120+": 42.00
+        "12-50": 0.00,
+        "51-120": 0.00,
+        "120+": 0.00
       },
       "features": ["Sherpa fleece lining", "Premium warmth", "Heavy-duty zipper", "Wind-resistant"],
       "category": "womens-hoodies"
@@ -4158,9 +4158,9 @@ export const productsData = {
         "360+": "5-6 weeks"
       },
       pricing: {
-        "36-144": 28.50,
-        "145-360": 26.00,
-        "360+": 23.50
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Mid-rise waist", "Five-pocket styling", "Button and zip closure", "Belt loops", "Classic straight leg"],
       category: "womens-bottoms"
@@ -4189,9 +4189,9 @@ export const productsData = {
         "360+": "5-6 weeks"
       },
       pricing: {
-        "36-144": 32.00,
-        "145-360": 29.50,
-        "360+": 26.50
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Slim through hip and thigh", "Tapered leg", "Mid-rise", "Stretch comfort", "Modern fit"],
       category: "womens-bottoms"
@@ -4220,9 +4220,9 @@ export const productsData = {
         "360+": "5-6 weeks"
       },
       pricing: {
-        "36-144": 26.50,
-        "145-360": 24.00,
-        "360+": 21.50
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Relaxed through hip and thigh", "Comfortable fit", "Classic rise", "Straight leg", "Easy wearing"],
       category: "womens-bottoms"
@@ -4251,9 +4251,9 @@ export const productsData = {
         "240+": "6-7 weeks"
       },
       pricing: {
-        "24-96": 38.00,
-        "97-240": 35.50,
-        "240+": 32.00
+        "24-96": 0.00,
+        "97-240": 0.00,
+        "240+": 0.00
       },
       features: ["Strategic distressing", "Authentic fading", "Ripped details", "Vintage wash", "Trendy styling"],
       category: "womens-bottoms"
@@ -4282,9 +4282,9 @@ export const productsData = {
         "480+": "5-6 weeks"
       },
       pricing: {
-        "48-192": 34.00,
-        "193-480": 31.50,
-        "480+": 28.50
+        "48-192": 0.00,
+        "193-480": 0.00,
+        "480+": 0.00
       },
       features: ["Ultra-slim fit", "High stretch content", "Shape retention", "Ankle length", "Second-skin feel"],
       category: "womens-bottoms"
@@ -4313,9 +4313,9 @@ export const productsData = {
         "360+": "5-6 weeks"
       },
       pricing: {
-        "36-144": 36.00,
-        "145-360": 33.50,
-        "360+": 30.00
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["High-rise waistline", "Flattering fit", "Vintage-inspired", "Stretch comfort", "Elongating silhouette"],
       category: "womens-bottoms"
@@ -4344,9 +4344,9 @@ export const productsData = {
         "360+": "5-6 weeks"
       },
       pricing: {
-        "36-144": 30.00,
-        "145-360": 27.50,
-        "360+": 25.00
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Relaxed boyfriend fit", "Loose through hip", "Tapered ankle", "Vintage styling", "Casual comfort"],
       category: "womens-bottoms"
@@ -4375,9 +4375,9 @@ export const productsData = {
         "360+": "5-6 weeks"
       },
       pricing: {
-        "36-144": 29.00,
-        "145-360": 26.50,
-        "360+": 24.00
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Straight leg silhouette", "Classic five-pocket", "Versatile styling", "Consistent width", "Timeless design"],
       category: "womens-bottoms"
@@ -4407,9 +4407,9 @@ export const productsData = {
         "360+": "4-5 weeks"
       },
       pricing: {
-        "36-144": 24.00,
-        "145-360": 22.00,
-        "360+": 19.50
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Tailored fit", "Stretch comfort", "Professional styling", "Versatile wear", "Classic chino design"],
       category: "womens-bottoms"
@@ -4439,9 +4439,9 @@ export const productsData = {
         "240+": "5-6 weeks"
       },
       pricing: {
-        "24-96": 32.00,
-        "97-240": 29.50,
-        "240+": 26.50
+        "24-96": 0.00,
+        "97-240": 0.00,
+        "240+": 0.00
       },
       features: ["Wide leg silhouette", "High waistline", "Flowing fit", "Statement piece", "Fashion-forward design"],
       category: "womens-bottoms"
@@ -4471,9 +4471,9 @@ export const productsData = {
         "360+": "4-5 weeks"
       },
       pricing: {
-        "36-144": 26.00,
-        "145-360": 24.00,
-        "360+": 21.50
+        "36-144": 0.00,
+        "145-360": 0.00,
+        "360+": 0.00
       },
       features: ["Cropped length", "Ankle-hitting", "Modern silhouette", "Versatile styling", "Polished look"],
       category: "womens-bottoms"
@@ -4503,9 +4503,9 @@ export const productsData = {
         "480+": "4-5 weeks"
       },
       pricing: {
-        "48-192": 18.00,
-        "193-480": 16.50,
-        "480+": 14.50
+        "48-192": 0.00,
+        "193-480": 0.00,
+        "480+": 0.00
       },
       features: ["Four-way stretch", "High waistband", "Moisture-wicking", "Squat-proof fabric", "Compression fit"],
       category: "womens-bottoms"
@@ -4535,9 +4535,9 @@ export const productsData = {
         "250+": "5-6 weeks"
       },
       pricing: {
-        "24-100": 42.00,
-        "101-250": 39.50,
-        "250+": 36.00
+        "24-100": 0.00,
+        "101-250": 0.00,
+        "250+": 0.00
       },
       features: ["Button-front closure", "Chest pockets", "Cropped silhouette", "Tailored fit", "Adjustable cuffs"],
       category: "womens-outerwear"
@@ -4565,9 +4565,9 @@ export const productsData = {
         "300+": "4-5 weeks"
       },
       pricing: {
-        "36-120": 38.00,
-        "121-300": 35.50,
-        "300+": 32.00
+        "36-120": 0.00,
+        "121-300": 0.00,
+        "300+": 0.00
       },
       features: ["Full zip closure", "Ribbed cuffs and hem", "Side pockets", "Lightweight construction", "Relaxed fit"],
       category: "womens-outerwear"
@@ -4595,9 +4595,9 @@ export const productsData = {
         "400+": "4-5 weeks"
       },
       pricing: {
-        "48-150": 32.00,
-        "151-400": 29.50,
-        "400+": 26.50
+        "48-150": 0.00,
+        "151-400": 0.00,
+        "400+": 0.00
       },
       features: ["Packable design", "Water-resistant", "Adjustable hood", "Elastic waistband", "Reflective details"],
       category: "womens-outerwear"
@@ -4625,9 +4625,9 @@ export const productsData = {
         "300+": "5-6 weeks"
       },
       pricing: {
-        "36-120": 35.00,
-        "121-300": 32.50,
-        "300+": 29.00
+        "36-120": 0.00,  
+        "121-300": 0.00,
+        "300+": 0.00
       },
       features: ["Full zip closure", "Side stripe details", "Moisture-wicking", "Athletic fit", "Thumb holes"],
       category: "womens-outerwear"
@@ -4656,9 +4656,9 @@ export const productsData = {
         "250+": "6-7 weeks"
       },
       pricing: {
-        "24-100": 85.00,
-        "101-250": 78.50,
-        "250+": 72.00
+        "24-100": 0.00,
+        "101-250": 0.00,
+        "250+": 0.00
       },
       features: ["Removable faux fur hood", "Multiple pockets", "Adjustable waist", "Storm flaps", "Heavy-duty zippers"],
       category: "womens-outerwear"
@@ -4687,9 +4687,9 @@ export const productsData = {
         "300+": "5-6 weeks"
       },
       pricing: {
-        "36-120": 65.00,
-        "121-300": 60.00,
-        "300+": 55.50
+        "36-120": 0.00,  
+        "121-300": 0.00,
+        "300+": 0.00
       },
       features: ["Packable into stuff sack", "Water-resistant", "Elastic cuffs", "Interior pockets", "Lightweight construction"],
       category: "womens-outerwear"
@@ -4717,9 +4717,9 @@ export const productsData = {
         "300+": "5-6 weeks"
       },
       pricing: {
-        "36-120": 55.00,
-        "121-300": 51.50,
-        "300+": 47.00
+        "36-120": 0.00,
+        "121-300": 0.00,
+        "300+": 0.00
       },
       features: ["Fully waterproof", "Breathable membrane", "Sealed seams", "Adjustable hood", "Pit zips for ventilation"],
       category: "womens-outerwear"
@@ -4747,9 +4747,9 @@ export const productsData = {
         "250+": "6-7 weeks"
       },
       pricing: {
-        "24-100": 78.00,
-        "101-250": 72.50,
-        "250+": 67.00
+        "24-100": 0.00,
+        "101-250": 0.00,
+        "250+": 0.00
       },
       features: ["Double-breasted design", "Removable belt", "Storm flaps", "Classic lapels", "Interior pockets"],
       category: "womens-outerwear"
@@ -4778,9 +4778,9 @@ export const productsData = {
         "200+": "7-8 weeks"
       },
       pricing: {
-        "18-75": 125.00,
-        "76-200": 115.00,
-        "200+": 105.00
+        "18-75": 0.00,
+        "76-200": 0.00,
+        "200+": 0.00
       },
       features: ["Tailored fit", "Single-breasted design", "Notched lapels", "Interior lining", "Button closure"],
       category: "womens-outerwear"
@@ -4808,9 +4808,9 @@ export const productsData = {
         "400+": "4-5 weeks"
       },
       pricing: {
-        "48-150": 28.00,
-        "151-400": 25.50,
-        "400+": 23.00
+        "48-150": 0.00,
+        "151-400": 0.00,
+        "400+": 0.00
       },
       features: ["Anti-pill finish", "Full zip closure", "Side pockets", "Elastic cuffs", "Lightweight warmth"],
       category: "womens-outerwear"
@@ -4855,10 +4855,10 @@ export const productsData = {
         "1200+": "6-7 weeks"
       },
       pricing: {
-        "100-300": 28.00,
-        "301-600": 25.00,
-        "601-1200": 22.00,
-        "1200+": 19.00
+        "100-300": 0.00,
+        "301-600": 0.00,
+        "601-1200": 0.00,
+        "1200+": 0.00
       },
       features: [
         "Flatlock seams",
@@ -4907,10 +4907,10 @@ export const productsData = {
         "900+": "7-8 weeks"
       },
       pricing: {
-        "75-225": 34.00,
-        "226-450": 31.00,
-        "451-900": 28.00,
-        "900+": 25.00
+        "75-225": 0.00,
+        "226-450": 0.00,
+        "451-900": 0.00,
+        "900+": 0.00
       },
       features: [
         "Internal shelf bra (removable pads)",
@@ -4959,10 +4959,10 @@ export const productsData = {
         "720+": "8-9 weeks"
       },
       pricing: {
-        "60-180": 45.00,
-        "181-360": 42.00,
-        "361-720": 39.00,
-        "720+": 36.00
+        "60-180": 0.00,
+        "181-360": 0.00,
+        "361-720": 0.00,
+        "720+": 0.00
       },
       features: [
         "Seamless construction",
@@ -5011,10 +5011,10 @@ export const productsData = {
         "600+": "9-10 weeks"
       },
       pricing: {
-        "50-150": 65.00,
-        "151-300": 60.00,
-        "301-600": 55.00,
-        "600+": 50.00
+        "50-150": 0.00,
+        "151-300": 0.00,
+        "301-600": 0.00,
+        "600+": 0.00
       },
       features: [
         "Seamless underarm gussets",
@@ -5063,10 +5063,10 @@ export const productsData = {
         "960+": "7-8 weeks"
       },
       pricing: {
-        "80-240": 42.00,
-        "241-480": 38.00,
-        "481-960": 35.00,
-        "960+": 32.00
+        "80-240": 0.00,
+        "241-480": 0.00,
+        "481-960": 0.00,
+        "960+": 0.00
       },
       features: [
         "Gusseted crotch",
@@ -5114,10 +5114,10 @@ export const productsData = {
         "840+": "8-9 weeks"
       },
       pricing: {
-        "70-210": 68.00,
-        "211-420": 63.00,
-        "421-840": 58.00,
-        "840+": 54.00
+        "70-210": 0.00,
+        "211-420": 0.00,
+        "421-840": 0.00,
+        "840+": 0.00
       },
       features: [
         "Reflective safety detailing",
@@ -5166,10 +5166,10 @@ export const productsData = {
         "780+": "7-8 weeks"
       },
       pricing: {
-        "65-195": 55.00,
-        "196-390": 51.00,
-        "391-780": 47.00,
-        "780+": 43.00
+        "65-195": 0.00,
+        "196-390": 0.00,
+        "391-780": 0.00,
+        "780+": 0.00
       },
       features: [
         "Elastic drawcord waist",
@@ -5218,10 +5218,10 @@ export const productsData = {
         "660+": "8-9 weeks"
       },
       pricing: {
-        "55-165": 62.00,
-        "166-330": 58.00,
-        "331-660": 54.00,
-        "660+": 50.00
+        "55-165": 0.00,
+        "166-330": 0.00,
+        "331-660": 0.00,
+        "660+": 0.00
       },
       features: [
         "Ankle zippers",
@@ -5258,9 +5258,9 @@ export const productsData = {
         "500+": "4-5 weeks"
       },
       pricing: {
-        "50-200": 8.50,
-        "201-500": 7.50,
-        "500+": 6.50
+        "50-200": 0.00,
+        "201-500": 0.00,
+        "500+": 0.00
       },
       features: ["Reinforced neckline", "Double-needle stitching", "Tagless label", "Pre-shrunk"],
       category: "boys-tops"
@@ -5287,9 +5287,9 @@ export const productsData = {
         "500+": "4-5 weeks"
       },
       pricing: {
-        "50-200": 10.00,
-        "201-500": 8.75,
-        "500+": 7.50
+        "50-200": 0.00,
+        "201-500": 0.00,
+        "500+": 0.00
       },
       features: ["Ribbed collar", "Two-button placket", "Side vents", "Reinforced stitching"],
       category: "boys-tops"
@@ -5316,9 +5316,9 @@ export const productsData = {
         "500+": "5-6 weeks"
       },
       pricing: {
-        "50-200": 14.00,
-        "201-500": 12.25,
-        "500+": 10.50
+        "50-200": 0.00,
+        "201-500": 0.00,
+        "500+": 0.00
       },
       features: ["Elastic waistband shorts", "Coordinated color scheme", "Tagless neck label", "Breathable fabric"],
       category: "boys-tops"
@@ -5345,9 +5345,9 @@ export const productsData = {
         "500+": "4-5 weeks"
       },
       pricing: {
-        "50-200": 9.50,
-        "201-500": 8.25,
-        "500+": 7.00
+        "50-200": 0.50,
+        "201-500": 0.00,
+        "500+": 0.00
       },
       features: ["Quick-dry technology", "Stretch fabric", "Reflective detail", "Flatlock seams"],
       category: "boys-tops"
@@ -5376,9 +5376,9 @@ export const productsData = {
           "500+": "4-5 weeks"
         },
         pricing: {
-          "50-200": 8.50,
-          "201-500": 7.50,
-          "500+": 6.50
+          "50-200": 0.00,
+          "201-500": 0.00,
+          "500+": 0.00
         },
         features: ["Reinforced seams", "Tag-free neck label", "Pre-washed for softness", "Double-stitched hem"],
         category: "girls-tops"
@@ -5405,9 +5405,9 @@ export const productsData = {
           "500+": "5-6 weeks"
         },
         pricing: {
-          "50-200": 12.00,
-          "201-500": 10.50,
-          "500+": 9.00
+          "50-200": 0.00,
+          "201-500": 0.00,
+          "500+": 0.00
         },
         features: ["Ruffled sleeves", "Back button closure", "Soft lining", "Machine washable"],
         category: "girls-tops"
@@ -5486,10 +5486,10 @@ export const productsData = {
         "600+": "7-8 weeks"
       },
       pricing: {
-        "50-150": 120.00,
-        "151-300": 110.00,
-        "301-600": 100.00,
-        "600+": 90.00
+        "50-150": 0.00,
+        "151-300": 0.00,
+        "301-600": 0.00,
+        "600+": 0.00
       },
       features: [
         "Hospital corners",
@@ -5543,10 +5543,10 @@ export const productsData = {
         "480+": "9-10 weeks"
       },
       pricing: {
-        "40-120": 95.00,
-        "121-240": 88.00,
-        "241-480": 82.00,
-        "480+": 75.00
+        "40-120": 0.00,
+        "121-240": 0.00,
+        "241-480": 0.00,
+        "480+": 0.00
       },
       features: [
         "Pattern matching across pieces",
@@ -5599,10 +5599,10 @@ export const productsData = {
         "720+": "6-7 weeks"
       },
       pricing: {
-        "60-180": 65.00,
-        "181-360": 60.00,
-        "361-720": 55.00,
-        "720+": 50.00
+        "60-180": 0.00,
+        "181-360": 0.00,
+        "361-720": 0.00,
+        "720+": 0.00
       },
       features: [
         "Pre-washed to prevent shrinkage",
@@ -5650,10 +5650,10 @@ export const productsData = {
         "600+": "8-9 weeks"
       },
       pricing: {
-        "50-150": 110.00,
-        "151-300": 102.00,
-        "301-600": 95.00,
-        "600+": 88.00
+        "50-150": 0.00,
+        "151-300": 0.00,
+        "301-600": 0.00,
+        "600+": 0.00
       },
       features: [
         "Double-stitched hems",
@@ -5699,9 +5699,9 @@ export const productsData = {
         "1000+": "6-7 weeks"
       },
       pricing: {
-        "100-500": 4.25,
-        "501-1000": 3.75,
-        "1000+": 3.25
+        "100-500": 0.00,
+        "501-1000": 0.00,
+        "1000+": 0.00
       },
       features: [
         "Durable jute fiber",
@@ -5733,9 +5733,9 @@ export const productsData = {
         "1000+": "4-5 weeks"
       },
       pricing: {
-        "100-500": 5.00,
-        "501-1000": 4.25,
-        "1000+": 3.75
+        "100-500": 0.00,
+        "501-1000": 0.00,
+        "1000+": 0.00
       },
       features: [
         "Thick 12oz canvas",
@@ -5767,9 +5767,9 @@ export const productsData = {
         "1000+": "4-5 weeks"
       },
       pricing: {
-        "200-500": 3.25,
-        "501-1000": 2.75,
-        "1000+": 2.25
+        "200-500": 0.00,
+        "501-1000": 0.00,
+        "1000+": 0.00
       },
       features: [
         "Foldable design with pouch",
@@ -5805,9 +5805,9 @@ export const productsData = {
         "1000+": "4-5 weeks"
       },
       pricing: {
-        "100-500": 5.50,
-        "501-1000": 4.75,
-        "1000+": 4.00
+        "100-500": 0.00,
+        "501-1000": 0.00,
+        "1000+": 0.00
       },
       features: [
         "6-panel design",
@@ -5839,9 +5839,9 @@ export const productsData = {
         "1000+": "5-6 weeks"
       },
       pricing: {
-        "100-500": 6.00,
-        "501-1000": 5.25,
-        "1000+": 4.50
+        "100-500": 0.00,
+        "501-1000": 0.00,
+        "1000+": 0.00
       },
       features: [
         "Soft brim",
@@ -5874,9 +5874,9 @@ export const productsData = {
         "1000+": "5 weeks"
       },
       pricing: {
-        "100-500": 4.25,
-        "501-1000": 3.75,
-        "1000+": 3.25
+        "100-500": 0.00,
+        "501-1000": 0.00,
+        "1000+": 0.00
       },
       features: [
         "Ribbed knit pattern",
