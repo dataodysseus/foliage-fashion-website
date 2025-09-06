@@ -291,6 +291,7 @@ const ProductDetail = () => {
           {/* Pricing Table */}
           <div className="pricing-table-section">
             <h3>Bulk Pricing</h3>
+            <h5>**Pricing details will be available upon request**</h5>
             <div className="pricing-table">
               <div className="pricing-header">
                 <span>Quantity Range</span>
